@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import logoMain from '../../assets/img/logoMain.png';
+/* import logoMain from '../../assets/img/logoMain.png';*/
 import logoImersao from '../../assets/img/logoImersao.png';
 
 function Footer() {
@@ -14,9 +14,9 @@ function Footer() {
         <img src={logoMain} alt="Logo tech.dev.flix" />
       </a> */}
       <p>
-        Orgulhosamente criado durante a
+        Criado durante a
         {' '}
-        <a href="https://www.alura.com.br/">
+        <a className="logo" href="https://www.alura.com.br/">
           <img src={logoImersao} alt="Imersão react da Alura" />
         </a>
       </p>
