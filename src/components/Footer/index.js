@@ -6,10 +6,10 @@ import logoImersao from '../../assets/img/logoImersao.png';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
+     {/* <a href="https://www.alura.com.br/">
         <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
       </a>
-      {/* <p/>
+       <p/>
       <a href="https://tech-dev-flix.vercel.app/">
         <img src={logoMain} alt="Logo tech.dev.flix" />
       </a> */}
