@@ -159,6 +159,28 @@
         }
       ]
     },
+    {
+      "titulo": "Podcasts",
+      "cor": "pink",
+      "link_extra": {
+        "text": "Podcasts Recomendados Sobre Tecnologia",
+        "url": "https://gobacklog.com/blog/podcasts-sobre-inovacao-e-tecnologia"
+      },
+      "videos": [
+        {
+          "titulo": "Hipsters Ponto Tube",
+          "url": "https://www.youtube.com/watch?v=yj0FR_gm0sM&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=3&t=1s"
+        },
+        {
+          "titulo": "Pod Progamar",
+          "url": "https://www.youtube.com/watch?v=s4EgptWlmE4"
+        },
+        {
+          "titulo": "Mulheres de Produto",
+          "url": "https://www.youtube.com/watch?v=e7syO57qa8g"
+        }
+      ]
+    },
        {
       "titulo": "Filmes",
       "cor": "orange",
