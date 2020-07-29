@@ -1,23 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './pages/Home';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import CadastroVideo from './pages/cadastro/video';
 
-function CadastroVideo(){
-  return(
-    <div>
-      Página de Cadastro do Vídeo
-    </div>
-  )
-}
-
+const NaoExiste = () => (<div>Página 404</div>)
 ReactDOM.render(
  <BrowserRouter>
     <Switch>
+      < Route path="/" component={Home} exact/>
       < Route path="/cadastro/video" component={CadastroVideo} />
-      < Route path="/" component={App} />
-    </Switch>   </BrowserRouter>,
+      {/* erro 404: QUANDO A PAGINA NÃO EXISTIR*/}
+      < Route component={NaoExiste} /> 
+    </Switch>
+    </BrowserRouter>,
   document.getElementById('root')
 );
 
