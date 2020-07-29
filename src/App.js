@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Afinal, o que é React JS? Neste vídeo, Vanessa Tonini e Mario Souto explicam isto para você falando sobre como esta ferramenta surgiu, para que ela serve, quais são suas aplicações e relação com outras ferramentas e como começar a trabalhar com ele."}
+        videoDescription={"Nesse documentário da History Channel é mostrado de uma forma sucinta o que já é propalado há muitas décadas em livros e na internet sobre a grande conspiração contra as novas tecnologias que podem por em risco o monopólio e poder da grande indústria petrolífera, e demais industrias."}
       />    
       <Carousel
         ignoreFirstVideo

@@ -16,9 +16,10 @@ function Footer() {
       <p>
         Criado durante a
         {' '}
-        <a className="logo" href="https://www.alura.com.br/">
-          <img src={logoImersao} alt="Imersão react da Alura" />
+        <a className="logo" href="https://www.alura.com.br/imersao-react">
+          <img src={logoImersao} alt="Imersão react da Alura" width="100" height="40"/>
         </a>
+        
       </p>
     </FooterBase>
   );

@@ -1,75 +1,75 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Os melhores sobre a tecnologia",
+      "link": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6",
+      "cor": "#2A7AE4",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Artigo : 7 Dicas de Documentários sobre tecnologia no YouTube",
+        "url": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6"
       },
       "videos": [
         {
-          "titulo": "O que é React JS?",
-          "url": "https://www.youtube.com/watch?v=6IuQUgeDPg0&list=PLh2Y_pKOa4UfqvVbrcC6Xm44lIx0f4yDa&index=29"
+          "titulo": "Power - A Grande Conspiração Contra a Tecnologia - Full HD - Tesla - Diesel - Stanley",
+          "url": "https://www.youtube.com/watch?v=nRQU8cLbJag"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Revolution OS",
+          "url": "https://youtu.be/7LGKgdWtrqI"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "We Are Legion — Anonymous",
+          "url": "https://youtu.be/q4Qp-bEjZQc"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Triunfo dos Nerds",
+          "url": "https://youtu.be/55nHzrZsdG4"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "O Menino da Internet: A História de Aaron Swartz",
+          "url": "https://youtu.be/uAe_9qBxwOc"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Vítimas do Facebook",
+          "url": "https://youtu.be/8Ir0vV4ZbF4"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "TPB AFK",
+          "url": "https://youtu.be/7R6SOPzjaxs"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Bem-Vindo Macintosh",
+          "url": "https://youtu.be/W0PRcJgVqGc"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Carreira: A tecnologia no empreendedorismo",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Artigo: O uso da tecnologia a favor do crescimento das empresas",
+        "url": "https://blog.cedrotech.com/uso-da-tecnologia-favor-do-crescimento-das-empresas/"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "O Trabalho no Futuro",
+          "url": "https://youtu.be/oDcgWE_3VII"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Documentário: O Futuro em 2111 - Mundo Inteligente (Dublado) Discovery Channel",
+          "url": "https://www.youtube.com/watch?v=LNcn2YUt1Ho"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "O FIM DO EMPREGO HUMANO - documentários",
+          "url": "https://www.youtube.com/watch?v=LsguSJeqgVM"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Playlist: Vai que Dá: A cara das Startups brasileiras",
+          "url": "https://youtu.be/936Q4gpfDv8?list=PLNqvSDwXnyNzHXyZp-3O_EftWe2wtq_HS"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Inteligência Artificial: O Computador Mais Inteligente do Mundo",
+          "url": "https://youtu.be/pTLqoeBpcmA"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "Curso: Técnicas para seu autodesenvolvimento na Alura",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [
@@ -98,34 +98,35 @@
           "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
         },
         {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
     },
+    
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Carreira: Áreas de atuação",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
+        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Lógica de Programação",
+          "url": "https://youtu.be/cNYu8LWBGI0"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "The iPod Revolution",
+          "url": "https://youtu.be/iMSs1JFND4Q"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
+          "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
         }
       ]
     },
@@ -133,7 +134,7 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "Curso: Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
@@ -163,7 +164,7 @@
       "titulo": "Podcasts",
       "cor": "pink",
       "link_extra": {
-        "text": "Podcasts Recomendados Sobre Tecnologia",
+        "text": "Artigo: Podcasts Recomendados Sobre Tecnologia",
         "url": "https://gobacklog.com/blog/podcasts-sobre-inovacao-e-tecnologia"
       },
       "videos": [
@@ -185,13 +186,21 @@
       "titulo": "Filmes",
       "cor": "orange",
       "link_extra": {
-        "text": "Filmes Recomendados Sobre Tecnologia",
+        "text": "Artigo: Filmes Recomendados Sobre Tecnologia",
         "url": "https://olhardigital.com.br/noticia/11-filmes-sobre-tecnologia-que-merecem-sua-atencao/43621"
       },
       "videos": [
         {
           "titulo": "Jobs (2013)",
           "url": "https://youtu.be/FrvkCS0ZGPU"
+        },
+        {
+          "titulo": "Moneyball (2011)",
+          "url": "https://www.youtube.com/watch?v=-4QPVo0UIzc&feature=youtu.be"
+        },
+        {
+          "titulo": "O Jogo da Imitação (2015)",
+          "url": "https://youtu.be/YIkKbMcJL_4"
         },
         {
           "titulo": "A rede social (The Social Network, 2010)",
