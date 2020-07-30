@@ -23,7 +23,7 @@ function setValue(key, valueCategory) {
 
     return(
         <PageDefault>
-            <h1>Cadastrar Categoria: {values.nome}</h1>
+            <h1>Cadastrar Categoria: {values.name}</h1>
             
             <form onSubmit={function submit(event){
                 event.preventDefault();
@@ -37,9 +37,9 @@ function setValue(key, valueCategory) {
                     <label>Nome da Categoria: 
                         <input 
                             type="text" 
-                            value={values['nome']}
+                            value={values.name}
                             onChange={function showCategory(event){
-                                setValue('nome', event.target.value);
+                                setValue('name', event.target.value);
                             }}
                         />
                     </label>
@@ -50,7 +50,7 @@ function setValue(key, valueCategory) {
                             type="text" 
                             value={values.description}
                             onChange={function showCategory(event){
-                                //setValue('description', event.target.value);
+                                setValue('description', event.target.value);
                             }}
                         />
                     </label> 
@@ -61,7 +61,7 @@ function setValue(key, valueCategory) {
                             type="color" 
                             value={values.color}
                             onChange={function showCategory(event){
-                                //setValue('color', event.target.value);
+                                setValue('color', event.target.value);
                             }}
                         />
                     </label> 
