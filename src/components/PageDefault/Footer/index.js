@@ -9,7 +9,7 @@ function Footer() {
       Criado durante a
         {' '}
         <a className="logo" href="https://www.alura.com.br/imersao-react" target="_blank">
-          <img src={logoImersao} alt="Imersão react da Alura" width="100" height="40" />
+          <img src={logoImersao} alt="Imersão react da Alura" align="center" width="100" height="40" />
         </a>
 
     </FooterBase>

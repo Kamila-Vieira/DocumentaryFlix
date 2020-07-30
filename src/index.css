@@ -3,7 +3,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Nanum Gothic', sans-serif;}
 
 :root {
   --primary: #2A7AE4;
@@ -21,6 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: gainsboro;
 }
 
 a {
@@ -28,8 +29,8 @@ a {
 } 
 
 #root{
-/*   min-height: 100vh;
- */  min-height: calc(100vh - var (--bodyPaddingTop));
+  min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
 }
+

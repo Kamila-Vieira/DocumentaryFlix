@@ -1,7 +1,6 @@
 import React from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
-import syled from 'styled-components';
 import styled from 'styled-components';
 
 

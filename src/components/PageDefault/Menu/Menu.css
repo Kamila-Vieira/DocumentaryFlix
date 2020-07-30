@@ -31,6 +31,7 @@
   body {
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
+    
   }
   @media (max-width: 800px) {
     .Menu {
@@ -44,12 +45,12 @@
   }
   
   .ButtonLink {
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: var(--black);
+    border: 1px solid var(--gold);
     box-sizing: border-box;
     cursor: pointer;
-    padding: 16px 24px;
-    font-style: normal;
+    padding: 10px 18px;
+    font-style: bold;
     font-weight: bold;
     font-size: 16px;
     outline: none;
@@ -57,6 +58,9 @@
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
+    background: var(--gold);
+    
+
   }
   .ButtonLink:hover,
   .ButtonLink:focus {
