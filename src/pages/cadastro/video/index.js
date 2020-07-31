@@ -1,35 +1,90 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormField';
 
 function CadastroVideo(){
+    const initialValue = {
+        titulo:'',
+        link:'',
+        imagem:'',
+        categoria:'',
+        descricao:'',
+    }
 
+    const [videos, setVideos] = useState([]);
+
+    const [values, setValues] = useState(initialValue);
+
+function setValue(chave, valor) { 
+    setValues({
+         ...values,
+         [chave]: valor,
+    })  
+}
+function handleChange(evento) {
+    setValue(
+      evento.target.getAttribute('name'),
+      evento.target.value
+    );
+  } 
     return(
         <PageDefault>
             <h1>Cadastro de Vídeos</h1>
-            <p>
-                <form>
-                    <input className="cadastro" type="text" placeholder="Título" required name="Título"/><br/>
-                    <input className="cadastro" type="url" placeholder="Link do Vídeo" required name="Link do Vídeo"/><br/>
-{/*                     <input className="cadastro" type="url" placeholder="Link da imagem do Vídeo" required name="Link da imagem do Vídeo"/><br/>
- */}                    <label list="category">Escolha uma Categoria: <br/>
-                            <input className="cadastro" /><br/>
-                        </label>
-                    <textarea className="cadastro" rows = "4"  cols = "40" placeholder="Descrição" required name="Descrição"/><br/>
-                    <input type="submit"/>
-                    <input type="reset"/>
+            
+            <form onSubmit={function submeter(evento){
+                evento.preventDefault();
+                setVideos([
+                    ...videos,
+                    values
+                ]);
 
-                </form>
-                {/* <button type="submit">
-                    Cadastrar
+                setValues(initialValue)
+            }}>
+                <FormField 
+                    label="Título do Vídeo"
+                    type="text"
+                    name="titulo"
+                    value={values.titulo}
+                    onChange={handleChange}
+                />
+                <FormField
+                    label="Link do Vídeo"
+                    type="url"
+                    name="link"
+                    value={values.link}
+                    onChange={handleChange}
+                />
+                <FormField
+                    label="Link da imagem do Vídeo"
+                    type="url"
+                    name="imagem"
+                    value={values.imagem}
+                    onChange={handleChange}
+                />
+                <FormField
+                    label="Categoria"
+                    type="list"
+                    name="categoria"
+                    value={values.categoria}
+                    onChange={handleChange}
+                />
+                <FormField
+                    label="Descrição"
+                    type="text"
+                    name="descricao"
+                    value={values.descricao}
+                    onChange={handleChange}
+                />
+                <br/>
+                <button className="ButtonLink">
+                        Cadastrar
                 </button>
-                <button type="reset">
-                    Limpar
-                </button> */}
-            </p>
+
+            </form>
             
             <Link className="ButtonLink" to="/cadastro/categoria">
-                Cadastrar Nova Categoria
+                Ir para Cadastro de Categoria
             </Link>
         </PageDefault>
     )

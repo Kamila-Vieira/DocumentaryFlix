@@ -20,7 +20,7 @@ function NaoExiste (){
                     <p>
                         Flappy Bird by &nbsp;
                         <a href="https://github.com/omariosouto">
-                        Mario Souto
+                            Mario Souto
                         </a>
                     </p>      
                     <br/>

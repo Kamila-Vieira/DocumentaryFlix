@@ -31,7 +31,7 @@ function handleChange(evento) {
         <PageDefault>
             <h1>Cadastrar Categoria: {values.nome}</h1>
             
-            <form onSubmit={function submiter(evento){
+            <form onSubmit={function submeter(evento){
                 evento.preventDefault();
                 setCategories([
                     ...categories,
@@ -49,11 +49,12 @@ function handleChange(evento) {
                 />
 
                 <FormField
-                    label="Descrição:"
-                    type="????"
+                    label="Descrição"
+                    type="text"
                     name="descricao"
                     value={values.descricao}
                     onChange={handleChange}
+                    rows = "4"  cols = "40"
                 />
                 <FormField
                     label="Cor"
@@ -80,7 +81,7 @@ function handleChange(evento) {
             <div>
                 <div>
                     <Link className="ButtonLink" to="/">
-                        Voltar para Home
+                        Ir para Home
                     </Link>
                 </div>
                 <div>

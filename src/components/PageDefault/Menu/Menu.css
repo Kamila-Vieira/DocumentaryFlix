@@ -59,7 +59,6 @@
     display: inline-block;
     transition: opacity .3s;
     background: var(--gold);
-    
 
   }
   .ButtonLink:hover,
