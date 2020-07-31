@@ -5,24 +5,10 @@ import Home from './pages/Home';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/video';
 import CadastroCategoria from './pages/cadastro/categoria';
-import Flappylogo from './assets/img/Flappylogo.png';
-import logoMain from './assets/img/logoMain.png';
+import NaoExiste from './pages/Page404';
 
-const NaoExiste = () => (<div>
-  <h1>Error 404:</h1>
-  <h2>Desculpe, a página requisitada não pode ser encontrada!</h2>
-  <h3>Conheça um mundo divertido com Flappy Bird!</h3>
-  <h3>Clique na imagem abaixo e divirta-se!</h3>
-  <br/>
-  <a href="https://mariosouto.com/flappy-bird-devsoutinho/" >
-    <img src={Flappylogo} alt="Flappy Bird! by Mario Souto"/>
-  </a>
-  <p>Flappy Bird by Mario Souto (https://github.com/omariosouto)</p>
-  <h3>Ou, Você pode ir para a Home clicando no nosso logo:</h3>
-  <a href="/">
-    <img src={logoMain} align="center" width="300" height="50" alt="Logo DocumentaryFlix"/>
-  </a>
-  </div>)
+/*   const NaoExiste = () => (<div>Página 404</div>)
+ */
 
 ReactDOM.render(
  <BrowserRouter>

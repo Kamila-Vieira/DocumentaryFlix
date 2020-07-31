@@ -1,91 +1,94 @@
 import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria(){
 
-    const inValue = {
-        name:'',
-        description:'',
-        color:'#000',
+    const initialValue = {
+        nome:'',
+        descricao:'',
+        cor:'',
     }
 
     const [categories, setCategories] = useState([]);
 
-    const [values, setValues] = useState(inValue);
+    const [values, setValues] = useState(initialValue);
 
-function setValue(key, valueCategory) { 
+function setValue(chave, valor) { 
     setValues({
          ...values,
-         [key]: valueCategory,
+         [chave]: valor,
     })  
 }
-
+function handleChange(evento) {
+    setValue(
+      evento.target.getAttribute('name'),
+      evento.target.value
+    );
+  } 
     return(
         <PageDefault>
-            <h1>Cadastrar Categoria: {values.name}</h1>
+            <h1>Cadastrar Categoria: {values.nome}</h1>
             
-            <form onSubmit={function submit(event){
-                event.preventDefault();
+            <form onSubmit={function submiter(evento){
+                evento.preventDefault();
                 setCategories([
                     ...categories,
                     values
                 ]);
-                
+
+                setValues(initialValue)
             }}>
-                <div>
-                    <label>Nome da Categoria: 
-                        <input 
-                            type="text" 
-                            value={values.name}
-                            onChange={function showCategory(event){
-                                setValue('name', event.target.value);
-                            }}
-                        />
-                    </label>
-                </div>
-                <div>
-                    <label>Descrição: 
-                        <textarea 
-                            type="text" 
-                            value={values.description}
-                            onChange={function showCategory(event){
-                                setValue('description', event.target.value);
-                            }}
-                        />
-                    </label> 
-                </div>
-                <div>
-                    <label>Cor: 
-                        <input 
-                            type="color" 
-                            value={values.color}
-                            onChange={function showCategory(event){
-                                setValue('color', event.target.value);
-                            }}
-                        />
-                    </label> 
-                </div>
-                <button >
+                <FormField
+                    label="Nome da Categoria"
+                    type="text"
+                    name="nome"
+                    value={values.nome}
+                    onChange={handleChange}
+                />
+
+                <FormField
+                    label="Descrição:"
+                    type="????"
+                    name="descricao"
+                    value={values.descricao}
+                    onChange={handleChange}
+                />
+                <FormField
+                    label="Cor"
+                    type="color"
+                    name="cor"
+                    value={values.cor}
+                    onChange={handleChange}
+                />
+                <br/>
+                <button className="ButtonLink">
                         Cadastrar
                 </button>
-                
-                <ul>
-                    {categories.map((category, indice) => {
-                        return (
-                            <li key={category+indice}>
-                                {category}
-                            </li>
-                        )
-                    })}
-                </ul>
 
-            
-            </form>   
-
-            <Link className="ButtonLink" to="/">
-                Voltar para Home
-            </Link>
+            </form>
+            <ul>
+                {categories.map((category, indice) => {
+                    return (
+                        <li key={`${category}${indice}`}>
+                            {category.nome}
+                        </li>
+                    )
+                })}
+            </ul>
+            <div>
+                <div>
+                    <Link className="ButtonLink" to="/">
+                        Voltar para Home
+                    </Link>
+                </div>
+                <div>
+                    <Link className="ButtonLink" to="/cadastro/video">
+                        Ir para Cadastro de Vìdeos
+                    </Link>
+                </div>
+            </div>
 
         </PageDefault>
     )

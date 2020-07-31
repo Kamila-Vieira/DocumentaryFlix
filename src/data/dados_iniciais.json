@@ -73,6 +73,40 @@
         }
       ]
     },
+    
+    {
+      "titulo": "Carreira: Áreas de atuação",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
+        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
+      },
+      "videos": [
+        {
+          "titulo": "Lógica de Programação",
+          "url": "https://youtu.be/cNYu8LWBGI0"
+        },
+        {
+          "titulo": "The iPod Revolution",
+          "url": "https://youtu.be/iMSs1JFND4Q"
+        },
+        {
+          "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
+          "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
+        }
+      ]
+    },
+
+    {
+      "titulo": "Recomendações em Tecnologia:",
+      "cor": "#141414",
+      "link_extra": {
+        "text": "Confira abaixo algumas das nossas recomendações!",
+        "url": "https://alura.com.br"
+      },
+    
+    "videos": []
+  },
     {
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
@@ -104,29 +138,6 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-      ]
-    },
-    
-    {
-      "titulo": "Carreira: Áreas de atuação",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
-        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
-      },
-      "videos": [
-        {
-          "titulo": "Lógica de Programação",
-          "url": "https://youtu.be/cNYu8LWBGI0"
-        },
-        {
-          "titulo": "The iPod Revolution",
-          "url": "https://youtu.be/iMSs1JFND4Q"
-        },
-        {
-          "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
-          "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
         }
       ]
     },

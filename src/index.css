@@ -34,3 +34,12 @@ a {
   flex-direction: column;
 }
 
+#Page404{
+
+ 
+  align-self: center;
+  text-align: center;
+  min-height: calc(100vh - var(--bodyPaddingTop));
+
+
+}

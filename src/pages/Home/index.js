@@ -1,13 +1,14 @@
 import React from 'react';
-import Menu from '../../components/PageDefault/Menu';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
+import Menu from '../../components/PageDefault/Menu';
 import Footer from '../../components/PageDefault/Footer';
 
 function Home() {
   return (
     <div style = {{ background:"#141414"}}>
+
       <Menu/>
       
       <BannerMain
@@ -37,7 +38,10 @@ function Home() {
       <Carousel
         category={dadosIniciais.categorias[6]}
       /> 
-      <Footer/>    
+      <Carousel
+        category={dadosIniciais.categorias[7]}
+      /> 
+      <Footer/>
 
     </div>
   );
