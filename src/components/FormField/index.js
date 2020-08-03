@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 
 const WapperFormfield = styled.div`
-     position: relative;
+    position: relative;
   textarea {
     min-height: 150px;
   }

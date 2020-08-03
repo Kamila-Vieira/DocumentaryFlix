@@ -48,6 +48,8 @@ function CadastroVideo() {
           </Link>
         </div>
       </div>
+      <br />
+
       <h1>Cadastro de Vídeos</h1>
 
       <form onSubmit={function submeter(evento) {

@@ -6,7 +6,7 @@ import logoMain from '../../assets/img/logoMain.png';
 import './Menu/Menu.css';
 
 const Main = styled.main`
-    font-size: 20px;
+    font-size: 10px;
     color: var(--white);
     flex:1;
     padding-top:10px;
@@ -14,11 +14,31 @@ const Main = styled.main`
     padding-right: 5%;
     background-image: linear-gradient(var(--grayDarker), gray);
 
+    h1{
+      
+      font-size: 35px;
+
+    };
+
+    ul{
+
+      font-size: 16px;
+      
+      li{
+
+        padding-top: 5px;
+
+      }
+    };
+
     .buttons{
+      
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     }
+
 `;
 
 function PageDefault({ children }) {

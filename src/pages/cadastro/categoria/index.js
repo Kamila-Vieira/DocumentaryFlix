@@ -105,9 +105,10 @@ function CadastroCategoria() {
           </Link>
         </div>
       </div>
+      <br />
 
       <h1>
-        Cadastrar Categoria:
+        Cadastrar Categoria:&nbsp;
         {values.nome}
       </h1>
 
