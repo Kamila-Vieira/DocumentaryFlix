@@ -16,8 +16,6 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-
-    
     "dev": "concurrently \"react-scripts start\" \"npm run server\"",
     "start": "npm run server",
     "server": "node ./server.js",
@@ -49,4 +47,5 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8"
   }
+  
 }
