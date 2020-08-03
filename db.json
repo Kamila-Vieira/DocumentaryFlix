@@ -8,9 +8,39 @@
         },
         {
             "id": 2,
-            "nome": "Ciência",
+            "nome": "Ciências e Biologia",
             "descricao": "Documentários sobre a ciência e o universo",
             "cor": "#00C86F"
+        },
+        {
+            "id": 3,
+            "nome": "Espiritualidade",
+            "descricao": "Documentários sobre a a espiritualidade universal",
+            "cor": "#9cd33b"
+        },
+        {
+            "id": 4,
+            "nome": "Arte",
+            "descricao": "Documentários sobre a arte como um todo",
+            "cor": "#6b5be2"
+        },
+        {
+            "id": 5,
+            "nome": "História",
+            "descricao": "Documentários sobre a do Brasil e do mundo",
+            "cor": "red"
+        },
+        {
+            "id": 6,
+            "nome": "Sociologia e Filosofia",
+            "descricao": "Documentários socialistas e filosóficos",
+            "cor": "pink"
+        },
+        {
+            "id": 7,
+            "nome": "Música",
+            "descricao": "Documentários a arte da música",
+            "cor": "orange"
         }
     ]
 }

@@ -1,13 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import Footer from './Footer';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Footer from './Footer';
 import logoMain from '../../assets/img/logoMain.png';
 import './Menu/Menu.css';
 
-
 const Main = styled.main`
-    background: var(--grayDarker);
+    font-size: 20px;
     color: var(--white);
     flex:1;
     padding-top:10px;
@@ -22,21 +21,20 @@ const Main = styled.main`
     }
 `;
 
-function PageDefault({children}){
-    return(
-            <>
-            <nav className="Menu">
-                <Link to="/">
-                <img className="Logo" src={logoMain} alt="DocumentaryFlix logo"/>
-                </Link>
-            </nav>              
-                <Main>
-                    {children}
-                </Main>    
-            <Footer/>
-            </>
-    );
-
+function PageDefault({ children }) {
+  return (
+    <>
+      <nav className="Menu">
+        <Link to="/">
+          <img className="Logo" src={logoMain} alt="DocumentaryFlix logo" />
+        </Link>
+      </nav>
+      <Main>
+        {children}
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default PageDefault;

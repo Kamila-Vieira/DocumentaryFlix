@@ -29,29 +29,83 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    setTimeout(() => {
+    const url = 'http://localhost:8000/categorias';
+
+    fetch(url)
+      .then(async (answerServer) => {
+        const answer = await answerServer.json();
+        setCategories([
+          ...answer,
+        ]);
+      });
+
+    /* setTimeout(() => {
       setCategories([
         ...categories,
-        values,
         {
           id: 1,
           nome: 'Tecnologia',
-          descricao: 'Os melhores documentários sobre o mundo da tecnologia',
+          descricao: 'Documentários sobre o mundo da tecnologia',
           cor: '#2A7AE4',
         },
         {
           id: 2,
-          nome: 'Carreira: A tecnologia no empreendedorismo',
-          descricao: 'Carreira melhores sobre a tecnologia',
+          nome: 'Ciência e Biologia',
+          descricao: 'Documentários sobre a ciência e o universo',
           cor: '#00C86F',
         },
+        {
+          id: 3,
+          nome: 'Espiritualidade',
+          descricao: 'Documentários sobre a a espiritualidade universal',
+          cor: '#9cd33b',
+        },
+        {
+          id: 4,
+          nome: 'Arte',
+          descricao: 'Documentários sobre a arte como um todo',
+          cor: '#6b5be2',
+        },
+        {
+          id: 5,
+          nome: 'História',
+          descricao: 'Documentários sobre a do Brasil e do mundo',
+          cor: 'red',
+        },
+        {
+          id: 6,
+          nome: 'Sociologia e Filosofia',
+          descricao: 'Documentários socialistas e filosóficos',
+          cor: 'pink',
+        },
+        {
+          id: 7,
+          nome: 'Música',
+          descricao: 'Documentários sobre a arte da música',
+          cor: 'orange',
+        },
       ]);
-    }, 4 * 1000);
+    }, 2 * 1000); */
   },
   []);
 
   return (
     <PageDefault>
+
+      <br />
+      <div className="buttons">
+        <div>
+          <Link className="ButtonLink" to="/">
+            Ir para Home
+          </Link>
+        </div>
+        <div>
+          <Link className="ButtonLink" to="/cadastro/video">
+            Ir para Cadastro de Vìdeos
+          </Link>
+        </div>
+      </div>
+
       <h1>
         Cadastrar Categoria:
         {values.nome}
@@ -63,7 +117,6 @@ function CadastroCategoria() {
           ...categories,
           values,
         ]);
-
         setValues(initialValue);
       }}
       >
@@ -93,8 +146,16 @@ function CadastroCategoria() {
         <Button>
           Cadastrar
         </Button>
-        <br />
       </form>
+
+      <br />
+      {categories.lenght === 0 && (
+      <div>
+        Loading ...
+
+      </div>
+      )}
+
       <ul>
         {categories.map((category) => (
           <li key={`${category.nome}`}>
@@ -102,25 +163,7 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
-
-      <div>
-        Loading ...
-        {' '}
-      </div>
       <br />
-
-      <div className="buttons">
-        <div>
-          <Link className="ButtonLink" to="/">
-            Ir para Home
-          </Link>
-        </div>
-        <div>
-          <Link className="ButtonLink" to="/cadastro/video">
-            Ir para Cadastro de Vìdeos
-          </Link>
-        </div>
-      </div>
 
     </PageDefault>
   );

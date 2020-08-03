@@ -35,6 +35,19 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
+      <br />
+      <div className="buttons">
+        <div>
+          <Link className="ButtonLink" to="/">
+            Voltar para Home
+          </Link>
+        </div>
+        <div>
+          <Link className="ButtonLink" to="/cadastro/categoria">
+            Ir para Cadastro de Categoria
+          </Link>
+        </div>
+      </div>
       <h1>Cadastro de Vídeos</h1>
 
       <form onSubmit={function submeter(evento) {
@@ -91,14 +104,9 @@ function CadastroVideo() {
         <Button className="ButtonLink">
           Cadastrar
         </Button>
-
       </form>
-
       <br />
 
-      <Link className="ButtonLink" to="/cadastro/categoria">
-        Ir para Cadastro de Categoria
-      </Link>
     </PageDefault>
   );
 }

@@ -5,7 +5,7 @@
       "link": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6",
       "cor": "#2A7AE4",
       "link_extra": {
-        "text": "Artigo : 7 Dicas de Documentários sobre tecnologia no YouTube",
+        "text": "Artigo : Dicas de Documentários sobre tecnologia",
         "url": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6"
       },
       "videos": [
@@ -70,22 +70,34 @@
           "url": "https://youtu.be/iMSs1JFND4Q"
         },
         {
+          "titulo": "Bitcoin - O Fim do Dinheiro Como Conhecemos (2016)",
+          "url": "https://youtu.be/o_EAzBlK0Mo"
+        },
+        {
           "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
           "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
         }   
       ]
     },
     {
-      "titulo": "Ciência",
+      "titulo": "Ciências e Biologia",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Site: Ciências na Atualidade",
+        "text": "Ciências na Atualidade",
         "url": "https://www.tecmundo.com.br/ciencia"
       },
       "videos": [
         {
           "titulo": "O PRÓXIMO REINO - A História do Amanhã",
           "url": "https://www.youtube.com/watch?v=hoJg83xuvUM"
+        },
+        {
+          "titulo": "Cosmos: Mundos Possíveis",
+          "url": "https://youtu.be/hg2_zi_WZ0w"
+        },
+        {
+          "titulo": "Cowspiracy - A Conspiração da Vaca",
+          "url": "https://youtu.be/sgj5Z9MZOaI"
         },
         {
           "titulo": "O homem do futuro",
@@ -98,133 +110,257 @@
       "titulo": "Espiritualidade",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
-        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
+        "text": "POR QUE COMIGO?",
+        "url": "uol.com.br/vivabem/reportagens-especiais/saude-e-espiritualidade/#cover"
       },
       "videos": [
         {
-          "titulo": "O homem do futuro",
-          "url": "https://www.youtube.com/watch?v=iUO9e125mso"
+          "titulo": "O Espiritual na Arte - O Filme",
+          "url": "https://youtu.be/fhMYIYpANWw"
         },
         {
-          "titulo": "O homem do futuro",
-          "url": "https://www.youtube.com/watch?v=iUO9e125mso"
+          "titulo": "Viagem Interna / Realidade Espiritual (Português)",
+          "url": "https://youtu.be/JbWgVevOZjw"
+        },
+        {
+          "titulo": "Eu maior",
+          "url": "https://youtu.be/V0gquwUQ-b0"
+        },
+        {
+          "titulo": "O efeito sombra",
+          "url": "https://youtu.be/rcfbxbihSsQ"
+        },
+        {
+          "titulo": "INNSAEI - O PODER DA INTUIÇÃO",
+          "url": "https://youtu.be/NIQEnrQDj5o"
+        },
+        {
+          "titulo": "Jesus, O Guia Espiritual da Humanidade",
+          "url": "https://youtu.be/pWXTZgHjrt0"
+        },
+        {
+          "titulo": "QUEM SOMOS NÓS",
+          "url": "https://www.youtube.com/watch?v=dQAUs87pHb8"
+        },
+        {
+          "titulo": "Samsara (2011)",
+          "url": "https://youtu.be/qp967YAAdNk"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Arte",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso: Técnicas para seu autodesenvolvimento na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Artigo: A arte como forma de pensamento",
+        "url": "https://www.angelicaribeiroartista.com/post/2018/03/23/a-arte-como-forma-de-pensamento-do-artista"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Bosch - VHS 2 - COLEÇÃO HISTÓRIA GERAL DA ARTE",
+          "url": "https://www.youtube.com/watch?v=1kh7wbQOjQs"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Caravaggio - O Mestre dos Pincéis e da Espada",
+          "url": "https://www.youtube.com/watch?v=peR3MzJnxOQ"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Os Impressionistas Edgar Degas",
+          "url": "https://www.youtube.com/watch?v=CGqdi53WeaQ"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Escher - Metamorfose",
+          "url": "https://www.youtube.com/watch?v=pVwrUUwzBRo"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Documental sobre FRIDA KAHLO",
+          "url": "https://www.youtube.com/watch?v=i7iq6WF5s0U"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "VHS 15 Kandinsky",
+          "url": "https://www.youtube.com/watch?v=m4Bs9lG1b_A"
+        },
+        {
+          "titulo": "Grandes Gênios da pintura: Leonardo da Vinci",
+          "url": "https://www.youtube.com/watch?v=6BAv5qBgpaA"
+        },
+        {
+          "titulo": "Os Impressionistas Paul Cezanne",
+          "url": "https://www.youtube.com/watch?v=5aI8k1V_usU"
+        },
+        {
+          "titulo": "Caminhos da Arte",
+          "url": "https://www.youtube.com/watch?v=pd_o4N5QCKc"
+        },
+        {
+          "titulo": "Paul Klee - O Diário de um Artista",
+          "url": "https://www.youtube.com/watch?v=tI-mW8mZfjU"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "História",
       "cor": "red",
       "link_extra": {
-        "text": "Curso: Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Playlist: A História do Brasil",
+        "url": "https://www.youtube.com/playlist?list=PLPNLvl90MqKRgfh1apXq7xO37Dci8p2KS"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 1",
+          "url": "https://www.youtube.com/watch?v=ScaUURAJkC0"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 2",
+          "url": "https://www.youtube.com/watch?v=UQMCosffSpk"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 3",
+          "url": "https://www.youtube.com/watch?v=cKn_mlyMiZU"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 4",
+          "url": "https://www.youtube.com/watch?v=ap1yNIpqjko"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 5",
+          "url": "https://www.youtube.com/watch?v=YQukFuvgxE0"
+        },
+        {
+          "titulo": "Guerra do Paraguai - A nossa Grande Guerra",
+          "url": "https://www.youtube.com/watch?v=2lGEagENznE"
+        },
+        {
+          "titulo": "O lapa azul",
+          "url": "https://www.youtube.com/watch?v=e4t-ora6LSU"
+        },
+        {
+          "titulo": "Camponeses do Araguaia: A Guerrilha vista por dentro",
+          "url": "https://www.youtube.com/watch?v=UhpO4I2O0zs"
+        },
+        {
+          "titulo": "Playlist: Cortina de Fumaça",
+          "url": "https://youtu.be/13aHWoKP7zI?list=PL91799B5910EDE4E0"
+        },
+        {
+          "titulo": "Documentário: A História do Racismo - BBC",
+          "url": "youtube.com/watch?v=jtg9xH2kum8"
         }
       ]
     },
     {
-      "titulo": "Podcasts",
+      "titulo": "Sociologia e Filosofia",
       "cor": "pink",
       "link_extra": {
-        "text": "Artigo: Podcasts Recomendados Sobre Tecnologia",
-        "url": "https://gobacklog.com/blog/podcasts-sobre-inovacao-e-tecnologia"
-      },
+        "text": "Documentários sobre Nietzsche, Heidegger e Sartre.",
+        "url": "https://canaldoensino.com.br/blog/documentarios-sobre-nietzsche-heidegger-e-sartre-que-voce-deveria-assistir"
+        },
       "videos": [
         {
-          "titulo": "Hipsters Ponto Tube",
-          "url": "https://www.youtube.com/watch?v=yj0FR_gm0sM&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=3&t=1s"
+          "titulo": "Zeitgeist (2007)",
+          "url": "https://youtu.be/5R_Vm2wCQj4"
         },
         {
-          "titulo": "Pod Progamar",
-          "url": "https://www.youtube.com/watch?v=s4EgptWlmE4"
+          "titulo": "Human (2015)",
+          "url": "https://youtu.be/TnGEclg2hjg"
         },
         {
-          "titulo": "Mulheres de Produto",
-          "url": "https://www.youtube.com/watch?v=e7syO57qa8g"
+          "titulo": "Muito Além do Peso (2013)",
+          "url": "https://youtu.be/8UGe5GiHCT4"
+        },
+        {
+          "titulo": "Terráqueos (2007)",
+          "url": "https://youtu.be/O4QnwUVQCN8"
+        },
+        {
+          "titulo": "Miss Representation (2011)",
+          "url": "https://www.youtube.com/watch?v=gx-Ou03fj0c"
+        },
+        {
+          "titulo": "O dinheiro como dívida (2006)",
+          "url": "https://youtu.be/700yJblX3jw"
+        },
+        {
+          "titulo": "The Corporation",
+          "url": "https://youtu.be/Zx0f_8FKMrY"
+        },
+        {
+          "titulo": "Uma sociedade sem manicômios",
+          "url": "https://www.youtube.com/watch?v=9z8ScK7Iyp0"
+        },
+        {
+          "titulo": "Réquiem para o Sonho Americano ",
+          "url": "https://www.youtube.com/watch?v=qAScJxm_jao"
+        },
+        {
+          "titulo": "The Mask You Live In",
+          "url": "https://www.youtube.com/watch?v=I1OI9B0VSlA"
+        },
+        {
+          "titulo": "Paradise or Oblivion",
+          "url": "https://youtu.be/KphWsnhZ4Ag"
         }
       ]
     },
        {
-      "titulo": "Filmes",
+      "titulo": "Música",
       "cor": "orange",
       "link_extra": {
-        "text": "Artigo: Filmes Recomendados Sobre Tecnologia",
-        "url": "https://olhardigital.com.br/noticia/11-filmes-sobre-tecnologia-que-merecem-sua-atencao/43621"
+        "text": "Artigo: A arte da música e a inspiração para a vida",
+        "url": "https://www.familia.com.br/a-arte-da-musica-e-a-inspiracao-para-a-vida/"
       },
       "videos": [
         {
-          "titulo": "Jobs (2013)",
-          "url": "https://youtu.be/FrvkCS0ZGPU"
+          "titulo": "Wilson Simonal- Ninguém sabe o duro que dei",
+          "url": "https://www.youtube.com/watch?v=ItVY5xs3_VM"
         },
         {
-          "titulo": "Moneyball (2011)",
-          "url": "https://www.youtube.com/watch?v=-4QPVo0UIzc&feature=youtu.be"
+          "titulo": "Charles Bradley - Soul of America",
+          "url": "https://www.youtube.com/watch?v=dOnMsDZdgcc"
         },
         {
-          "titulo": "O Jogo da Imitação (2015)",
-          "url": "https://youtu.be/YIkKbMcJL_4"
+          "titulo": "Chico Science: Um Caranguejo Elétrico",
+          "url": "https://www.youtube.com/watch?v=j299EbU-UnQ"
         },
         {
-          "titulo": "A rede social (The Social Network, 2010)",
-          "url": "https://youtu.be/lB95KLmpLR4"
+          "titulo": "Get Thrashed: The Story of Thrash Metal",
+          "url": "https://www.youtube.com/watch?v=q_TBvw2PWwg"
         },
         {
-          "titulo": "Matrix (1999)",
-          "url": "https://youtu.be/2KnZac176Hs"
+          "titulo": "Uma Noite Em 67",
+          "url": "https://www.youtube.com/watch?v=MLdptXDGwmg"
+        },
+        {
+          "titulo": "1959 - O ano que mudou o jazz",
+          "url": "https://www.youtube.com/watch?v=QGtrC41NpI8"
+        },
+        {
+          "titulo": "Krautrock: The Rebirth Of Germany",
+          "url": "https://www.youtube.com/watch?v=QP5dOKTB3ng"
+        },
+        {
+          "titulo": "Genghis Blues (1999)",
+          "url": "https://www.youtube.com/watch?v=s8Lr_27MkzA"
+        },
+        {
+          "titulo": "Natural Mystic Reggae",
+          "url": "https://www.youtube.com/watch?v=-KdKAZz4v-Y"
+        },
+        {
+          "titulo": "Galeria do Rock - Torre de Babel Paulistana",
+          "url": "https://www.youtube.com/watch?v=ZQiwiW2mnOk"
+        },
+        {
+          "titulo": "Alquimistas do Som",
+          "url": "https://www.youtube.com/watch?v=oFdEbC_RRNY"
+        },
+        {
+          "titulo": "Fabricando Tom Zé",
+          "url": "https://www.youtube.com/watch?v=QKuXIisaBdc"
+        },
+        {
+          "titulo": "Botinada: A Origem do Punk No Brasil",
+          "url": "https://www.youtube.com/watch?v=trIAXkc003k"
         }
       ]
     }
