@@ -119,7 +119,10 @@ export const WatchButton = styled.button`
   transition: opacity .3s;
   display: none;
   margin: 0 auto;
+  text-align:center
   @media (max-width: 800px) {
     display: block;
+    
+    
   }
 `;

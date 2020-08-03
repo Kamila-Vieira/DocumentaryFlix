@@ -11,10 +11,11 @@
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
+  --grayDarker: #141414;
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
-  --gold: #84910f;
+  --gold: #bcae2b;
 }
 
 html,
@@ -32,14 +33,4 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
-}
-
-#Page404{
-
- 
-  align-self: center;
-  text-align: center;
-  min-height: calc(100vh - var(--bodyPaddingTop));
-
-
 }

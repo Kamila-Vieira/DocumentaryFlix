@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Tecnologia",
+            "descricao": "Documentários sobre o mundo da tecnologia",
+            "cor": "#2A7AE4"
+        },
+        {
+            "id": 2,
+            "nome": "Ciência",
+            "descricao": "Documentários sobre a ciência e o universo",
+            "cor": "#00C86F"
+        }
+    ]
+}

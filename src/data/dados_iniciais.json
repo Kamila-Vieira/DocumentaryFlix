@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Os melhores sobre a tecnologia",
+      "titulo": "Técnologia",
       "link": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6",
       "cor": "#2A7AE4",
       "link_extra": {
@@ -40,17 +40,7 @@
         {
           "titulo": "Bem-Vindo Macintosh",
           "url": "https://youtu.be/W0PRcJgVqGc"
-        }        
-      ]
-    },
-    {
-      "titulo": "Carreira: A tecnologia no empreendedorismo",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Artigo: O uso da tecnologia a favor do crescimento das empresas",
-        "url": "https://blog.cedrotech.com/uso-da-tecnologia-favor-do-crescimento-das-empresas/"
-      },
-      "videos": [
+        },     
         {
           "titulo": "O Trabalho no Futuro",
           "url": "https://youtu.be/oDcgWE_3VII"
@@ -70,18 +60,7 @@
         {
           "titulo": "Inteligência Artificial: O Computador Mais Inteligente do Mundo",
           "url": "https://youtu.be/pTLqoeBpcmA"
-        }
-      ]
-    },
-    
-    {
-      "titulo": "Carreira: Áreas de atuação",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
-        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
-      },
-      "videos": [
+        },
         {
           "titulo": "Lógica de Programação",
           "url": "https://youtu.be/cNYu8LWBGI0"
@@ -93,20 +72,46 @@
         {
           "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
           "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
+        }   
+      ]
+    },
+    {
+      "titulo": "Ciência",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Site: Ciências na Atualidade",
+        "url": "https://www.tecmundo.com.br/ciencia"
+      },
+      "videos": [
+        {
+          "titulo": "O PRÓXIMO REINO - A História do Amanhã",
+          "url": "https://www.youtube.com/watch?v=hoJg83xuvUM"
+        },
+        {
+          "titulo": "O homem do futuro",
+          "url": "https://www.youtube.com/watch?v=iUO9e125mso"
+        }  
+      ]
+    },
+    
+    {
+      "titulo": "Espiritualidade",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Artigo: Carreira em Tecnologia - Quais são as opções de atuação?",
+        "url": "https://www.impacta.edu.br/blog/carreira-em-tecnologia-quais-sao-as-opcoes-de-atuacao/"
+      },
+      "videos": [
+        {
+          "titulo": "O homem do futuro",
+          "url": "https://www.youtube.com/watch?v=iUO9e125mso"
+        },
+        {
+          "titulo": "O homem do futuro",
+          "url": "https://www.youtube.com/watch?v=iUO9e125mso"
         }
       ]
     },
-
-    {
-      "titulo": "Recomendações em Tecnologia:",
-      "cor": "#141414",
-      "link_extra": {
-        "text": "Confira abaixo algumas das nossas recomendações!",
-        "url": "https://alura.com.br"
-      },
-    
-    "videos": []
-  },
     {
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
