@@ -96,12 +96,12 @@ function CadastroCategoria() {
       <div className="buttons">
         <div>
           <Link className="ButtonLink" to="/">
-            Ir para Home
+            Voltar para Home
           </Link>
         </div>
         <div>
           <Link className="ButtonLink" to="/cadastro/video">
-            Ir para Cadastro de Vìdeos
+            Voltar para Cadastro de Vìdeos
           </Link>
         </div>
       </div>
