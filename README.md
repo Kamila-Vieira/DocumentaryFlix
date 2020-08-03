@@ -68,5 +68,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
-Semana de 27/07 à 31/07/2020.
+### Semana de 27/07 à 31/07/2020.
 >>>>>>> f748c85d73c883f295deea6e73116a7b3c195595
