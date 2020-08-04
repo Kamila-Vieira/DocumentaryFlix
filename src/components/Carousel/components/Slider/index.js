@@ -49,6 +49,8 @@ const Slider = ({ children }) => (
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
+      /* nextArrow:  ,
+      prevArrow: , */
     }}
     >
       {children}
