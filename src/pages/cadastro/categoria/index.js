@@ -3,30 +3,18 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const initialValue = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(initialValue);
+
   const [categories, setCategories] = useState([]);
-
-  const [values, setValues] = useState(initialValue);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-  function handleChange(evento) {
-    setValue(
-      evento.target.getAttribute('name'),
-      evento.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -46,43 +34,43 @@ function CadastroCategoria() {
         ...categories,
         {
           id: 1,
-          nome: 'Tecnologia',
+          titulo: 'Tecnologia',
           descricao: 'Documentários sobre o mundo da tecnologia',
           cor: '#2A7AE4',
         },
         {
           id: 2,
-          nome: 'Ciência e Biologia',
+          titulo: 'Ciência e Biologia',
           descricao: 'Documentários sobre a ciência e o universo',
           cor: '#00C86F',
         },
         {
           id: 3,
-          nome: 'Espiritualidade',
+          titulo: 'Espiritualidade',
           descricao: 'Documentários sobre a a espiritualidade universal',
           cor: '#9cd33b',
         },
         {
           id: 4,
-          nome: 'Arte',
+          titulo: 'Arte',
           descricao: 'Documentários sobre a arte como um todo',
           cor: '#6b5be2',
         },
         {
           id: 5,
-          nome: 'História',
+          titulo: 'História',
           descricao: 'Documentários sobre a do Brasil e do mundo',
           cor: 'red',
         },
         {
           id: 6,
-          nome: 'Sociologia e Filosofia',
+          titulo: 'Sociologia e Filosofia',
           descricao: 'Documentários socialistas e filosóficos',
           cor: 'pink',
         },
         {
           id: 7,
-          nome: 'Música',
+          titulo: 'Música',
           descricao: 'Documentários sobre a arte da música',
           cor: 'orange',
         },
@@ -111,7 +99,7 @@ function CadastroCategoria() {
 
       <h1>
         Cadastrar Categoria:&nbsp;
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function submeter(evento) {
@@ -120,14 +108,14 @@ function CadastroCategoria() {
           ...categories,
           values,
         ]);
-        setValues(initialValue);
+        clearForm();
       }}
       >
         <FormField
-          label="Nome"
+          label="Título"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -151,18 +139,10 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      <br />
-      {categories.lenght === 0 && (
-      <div>
-        Loading ...
-
-      </div>
-      )}
-
       <ul>
         {categories.map((category) => (
-          <li key={`${category.nome}`}>
-            {category.nome}
+          <li key={`${category.titulo}`}>
+            {category.titulo}
           </li>
         ))}
       </ul>

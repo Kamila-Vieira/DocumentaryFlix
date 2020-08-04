@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Técnologia",
+      "titulo": "Tecnologia",
       "link": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6",
       "cor": "#2A7AE4",
       "link_extra": {
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "titulo": "Ciências e Biologia",
+      "titulo": "Ciências da Natureza",
       "cor": "#00C86F",
       "link_extra": {
         "text": "Ciências na Atualidade",

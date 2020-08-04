@@ -2,45 +2,516 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Tecnologia",
-            "descricao": "Documentários sobre o mundo da tecnologia",
-            "cor": "#2A7AE4"
+            "titulo": "Tecnologia",
+            "link": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6",
+            "cor": "#2A7AE4",
+            "link_extra": {
+            "text": "Artigo : Dicas de Documentários sobre tecnologia",
+            "url": "https://medium.com/gutoffline/7-dicas-document%C3%A1rios-de-tecnologia-no-youtube-2b305c42b1c6"
+            }
         },
         {
-            "id": 2,
-            "nome": "Ciências e Biologia",
-            "descricao": "Documentários sobre a ciência e o universo",
-            "cor": "#00C86F"
+          "id": 2,
+          "titulo": "Ciências da Natureza",
+          "cor": "#00C86F",
+          "link_extra": {
+            "text": "Ciências na Atualidade",
+            "url": "https://www.tecmundo.com.br/ciencia"
+          }
+        },
+        
+        {
+          "id": 3,
+          "titulo": "Espiritualidade",
+          "cor": "#9cd33b",
+          "link_extra": {
+            "text": "POR QUE COMIGO?",
+            "url": "uol.com.br/vivabem/reportagens-especiais/saude-e-espiritualidade/#cover"
+          }
         },
         {
-            "id": 3,
-            "nome": "Espiritualidade",
-            "descricao": "Documentários sobre a a espiritualidade universal",
-            "cor": "#9cd33b"
+          "id": 4,
+          "titulo": "Arte",
+          "cor": "#6b5be2",
+          "link_extra": {
+            "text": "Artigo: A arte como forma de pensamento",
+            "url": "https://www.angelicaribeiroartista.com/post/2018/03/23/a-arte-como-forma-de-pensamento-do-artista"
+          }
         },
         {
-            "id": 4,
-            "nome": "Arte",
-            "descricao": "Documentários sobre a arte como um todo",
-            "cor": "#6b5be2"
+          "id": 5,
+          "titulo": "História",
+          "cor": "red",
+          "link_extra": {
+            "text": "Playlist: A História do Brasil",
+            "url": "https://www.youtube.com/playlist?list=PLPNLvl90MqKRgfh1apXq7xO37Dci8p2KS"
+          }
         },
         {
-            "id": 5,
-            "nome": "História",
-            "descricao": "Documentários sobre a do Brasil e do mundo",
-            "cor": "red"
+          "id": 6,
+          "titulo": "Sociologia e Filosofia",
+          "cor": "pink",
+          "link_extra": {
+            "text": "Documentários sobre Nietzsche, Heidegger e Sartre.",
+            "url": "https://canaldoensino.com.br/blog/documentarios-sobre-nietzsche-heidegger-e-sartre-que-voce-deveria-assistir"
+            }
         },
-        {
-            "id": 6,
-            "nome": "Sociologia e Filosofia",
-            "descricao": "Documentários socialistas e filosóficos",
-            "cor": "pink"
-        },
-        {
-            "id": 7,
-            "nome": "Música",
-            "descricao": "Documentários a arte da música",
-            "cor": "orange"
+           {
+              "id": 7,
+              "titulo": "Música",
+              "cor": "orange",
+              "link_extra": {
+              "text": "Artigo: A arte da música e a inspiração para a vida",
+              "url": "https://www.familia.com.br/a-arte-da-musica-e-a-inspiracao-para-a-vida/"
+          }
         }
+      ],
+        "videos": [
+          {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Power - A Grande Conspiração Contra a Tecnologia - Full HD - Tesla - Diesel - Stanley",
+            "url": "https://www.youtube.com/watch?v=nRQU8cLbJag"
+          },
+          {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "Revolution OS",
+            "url": "https://youtu.be/7LGKgdWtrqI"
+          },
+          {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "We Are Legion — Anonymous",
+            "url": "https://youtu.be/q4Qp-bEjZQc"
+          },
+          {
+            "id": 4,
+            "categoriaId": 1,
+            "titulo": "Triunfo dos Nerds",
+            "url": "https://youtu.be/55nHzrZsdG4"
+          },
+          {
+            "id": 5,
+            "categoriaId": 1,
+            "titulo": "O Menino da Internet: A História de Aaron Swartz",
+            "url": "https://youtu.be/uAe_9qBxwOc"
+          },
+          {
+            "id": 6,
+            "categoriaId": 1,
+            "titulo": "Vítimas do Facebook",
+            "url": "https://youtu.be/8Ir0vV4ZbF4"
+          },
+          {
+            "id": 7,
+            "categoriaId": 1,
+            "titulo": "TPB AFK",
+            "url": "https://youtu.be/7R6SOPzjaxs"
+          },
+          {
+            "id": 8,
+            "categoriaId": 1,
+            "titulo": "Bem-Vindo Macintosh",
+            "url": "https://youtu.be/W0PRcJgVqGc"
+          },     
+          {
+            "id": 8,
+            "categoriaId": 1,
+            "titulo": "O Trabalho no Futuro",
+            "url": "https://youtu.be/oDcgWE_3VII"
+          },
+          {
+            "id": 9,
+            "categoriaId": 1,
+            "titulo": "Documentário: O Futuro em 2111 - Mundo Inteligente (Dublado) Discovery Channel",
+            "url": "https://www.youtube.com/watch?v=LNcn2YUt1Ho"
+          },
+          {
+            "id": 10,
+            "categoriaId": 1,
+            "titulo": "O FIM DO EMPREGO HUMANO - documentários",
+            "url": "https://www.youtube.com/watch?v=LsguSJeqgVM"
+          },
+          {
+            "id": 11,
+            "categoriaId": 1,
+            "titulo": "Playlist: Vai que Dá: A cara das Startups brasileiras",
+            "url": "https://youtu.be/936Q4gpfDv8?list=PLNqvSDwXnyNzHXyZp-3O_EftWe2wtq_HS"
+          }, 
+          {
+            "id": 12,
+            "categoriaId": 1,
+            "titulo": "Inteligência Artificial: O Computador Mais Inteligente do Mundo",
+            "url": "https://youtu.be/pTLqoeBpcmA"
+          },
+          {
+            "id": 13,
+            "categoriaId": 1,
+            "titulo": "Lógica de Programação",
+            "url": "https://youtu.be/cNYu8LWBGI0"
+          },
+          {
+            "id": 14,
+            "categoriaId": 1,
+            "titulo": "The iPod Revolution",
+            "url": "https://youtu.be/iMSs1JFND4Q"
+          },
+          {
+            "id": 15,
+            "categoriaId": 1,
+            "titulo": "Bitcoin - O Fim do Dinheiro Como Conhecemos (2016)",
+            "url": "https://youtu.be/o_EAzBlK0Mo"
+          },
+          {
+            "id": 16,
+            "categoriaId": 1,
+            "titulo": "A HISTÓRIA DA INFORMAÇÃO - Documentário (2012)",
+            "url": "https://www.youtube.com/watch?v=ppNCQ5cC5uA"
+          },
+          {
+            "id": 17,
+            "categoriaId": 2,
+            "titulo": "A biografia de Charles Darwin",
+            "url": "https://youtu.be/1qItP3RhYBc"
+          },
+          {
+            "id": 18,
+            "categoriaId": 2,
+            "titulo": "O PRÓXIMO REINO - A História do Amanhã",
+            "url": "https://www.youtube.com/watch?v=hoJg83xuvUM"
+          },
+          {
+            "id": 19,
+            "categoriaId": 2,
+            "titulo": "Cosmos: Mundos Possíveis",
+            "url": "https://youtu.be/hg2_zi_WZ0w"
+          },
+          {
+            "id": 20,
+            "categoriaId": 2,
+            "titulo": "Cowspiracy - A Conspiração da Vaca",
+            "url": "https://youtu.be/sgj5Z9MZOaI"
+          },
+          {
+            "id": 21,
+            "categoriaId": 2,
+            "titulo": "O homem do futuro",
+            "url": "https://www.youtube.com/watch?v=iUO9e125mso"
+          },
+          {
+            "id": 22,
+            "categoriaId": 3,
+            "titulo": "O Espiritual na Arte - O Filme",
+            "url": "https://youtu.be/fhMYIYpANWw"
+          },
+          {
+            "id": 23,
+            "categoriaId": 3,
+            "titulo": "Viagem Interna / Realidade Espiritual (Português)",
+            "url": "https://youtu.be/JbWgVevOZjw"
+          },
+          {
+            "id": 24,
+            "categoriaId": 3,
+            "titulo": "Eu maior",
+            "url": "https://youtu.be/V0gquwUQ-b0"
+          },
+          {
+            "id": 25,
+            "categoriaId": 3,
+            "titulo": "O efeito sombra",
+            "url": "https://youtu.be/rcfbxbihSsQ"
+          },
+          {
+            "id": 26,
+            "categoriaId": 3,
+            "titulo": "INNSAEI - O PODER DA INTUIÇÃO",
+            "url": "https://youtu.be/NIQEnrQDj5o"
+          },
+          {
+            "id": 27,
+            "categoriaId": 3,
+            "titulo": "Jesus, O Guia Espiritual da Humanidade",
+            "url": "https://youtu.be/pWXTZgHjrt0"
+          },
+          {
+            "id": 28,
+            "categoriaId": 3,
+            "titulo": "QUEM SOMOS NÓS",
+            "url": "https://www.youtube.com/watch?v=dQAUs87pHb8"
+          },
+          {
+            "id": 29,
+            "categoriaId": 3,
+            "titulo": "Samsara (2011)",
+            "url": "https://youtu.be/qp967YAAdNk"
+          },
+          {
+            "id": 30,
+            "categoriaId": 4,
+            "titulo": "Bosch - VHS 2 - COLEÇÃO HISTÓRIA GERAL DA ARTE",
+            "url": "https://www.youtube.com/watch?v=1kh7wbQOjQs"
+          },
+          {
+            "id": 31,
+            "categoriaId": 4,
+            "titulo": "Caravaggio - O Mestre dos Pincéis e da Espada",
+            "url": "https://www.youtube.com/watch?v=peR3MzJnxOQ"
+          },
+          {
+            "id": 32,
+            "categoriaId": 4,
+            "titulo": "Os Impressionistas Edgar Degas",
+            "url": "https://www.youtube.com/watch?v=CGqdi53WeaQ"
+          },
+          {
+            "id": 33,
+            "categoriaId": 4,
+            "titulo": "Escher - Metamorfose",
+            "url": "https://www.youtube.com/watch?v=pVwrUUwzBRo"
+          },
+          {
+            "id": 34,
+            "categoriaId": 4,
+            "titulo": "Documental sobre FRIDA KAHLO",
+            "url": "https://www.youtube.com/watch?v=i7iq6WF5s0U"
+          },
+          {
+            "id": 35,
+            "categoriaId": 4,
+            "titulo": "VHS 15 Kandinsky",
+            "url": "https://www.youtube.com/watch?v=m4Bs9lG1b_A"
+          },
+          {
+            "id": 36,
+            "categoriaId": 4,
+            "titulo": "Grandes Gênios da pintura: Leonardo da Vinci",
+            "url": "https://www.youtube.com/watch?v=6BAv5qBgpaA"
+          },
+          {
+            "id": 37,
+            "categoriaId": 4,
+            "titulo": "Os Impressionistas Paul Cezanne",
+            "url": "https://www.youtube.com/watch?v=5aI8k1V_usU"
+          },
+          {
+            "id": 38,
+            "categoriaId": 4,
+            "titulo": "Caminhos da Arte",
+            "url": "https://www.youtube.com/watch?v=pd_o4N5QCKc"
+          },
+          {
+            "id": 39,
+            "categoriaId": 4,
+            "titulo": "Paul Klee - O Diário de um Artista",
+            "url": "https://www.youtube.com/watch?v=tI-mW8mZfjU"
+          },
+          {
+            "id": 40,
+            "categoriaId": 5,
+            "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 1",
+            "url": "https://www.youtube.com/watch?v=ScaUURAJkC0"
+          },
+          {
+            "id": 41,
+            "categoriaId": 5,
+            "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 2",
+            "url": "https://www.youtube.com/watch?v=UQMCosffSpk"
+          },
+          {
+            "id": 42,
+            "categoriaId": 5,
+            "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 3",
+            "url": "https://www.youtube.com/watch?v=cKn_mlyMiZU"
+          },
+          {
+            "id": 43,
+            "categoriaId": 5,
+            "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 4",
+            "url": "https://www.youtube.com/watch?v=ap1yNIpqjko"
+          },
+          {
+            "id": 44,
+            "categoriaId": 5,
+            "titulo": "DOCUMENTÁRIO: ÍNDIOS NO BRASIL - Parte 5",
+            "url": "https://www.youtube.com/watch?v=YQukFuvgxE0"
+          },
+          {
+            "id": 45,
+            "categoriaId": 5,
+            "titulo": "Guerra do Paraguai - A nossa Grande Guerra",
+            "url": "https://www.youtube.com/watch?v=2lGEagENznE"
+          },
+          {
+            "id": 46,
+            "categoriaId": 5,
+            "titulo": "O lapa azul",
+            "url": "https://www.youtube.com/watch?v=e4t-ora6LSU"
+          },
+          {
+            "id": 47,
+            "categoriaId": 5,
+            "titulo": "Camponeses do Araguaia: A Guerrilha vista por dentro",
+            "url": "https://www.youtube.com/watch?v=UhpO4I2O0zs"
+          },
+          {
+            "id": 48,
+            "categoriaId": 5,
+            "titulo": "Playlist: Cortina de Fumaça",
+            "url": "https://youtu.be/13aHWoKP7zI?list=PL91799B5910EDE4E0"
+          },
+          {
+            "id": 49,
+            "categoriaId": 5,
+            "titulo": "Documentário: A História do Racismo - BBC",
+            "url": "youtube.com/watch?v=jtg9xH2kum8"
+          },
+          {
+            "id": 50,
+            "categoriaId": 6,
+            "titulo": "Zeitgeist (2007)",
+            "url": "https://youtu.be/5R_Vm2wCQj4"
+          },
+          {
+            "id": 51,
+            "categoriaId": 6,
+            "titulo": "Human (2015)",
+            "url": "https://youtu.be/TnGEclg2hjg"
+          },
+          {
+            "id": 52,
+            "categoriaId": 6,
+            "titulo": "Muito Além do Peso (2013)",
+            "url": "https://youtu.be/8UGe5GiHCT4"
+          },
+          {
+            "id": 53,
+            "categoriaId": 6,
+            "titulo": "Terráqueos (2007)",
+            "url": "https://youtu.be/O4QnwUVQCN8"
+          },
+          {
+            "id": 54,
+            "categoriaId": 6,
+            "titulo": "Miss Representation (2011)",
+            "url": "https://www.youtube.com/watch?v=gx-Ou03fj0c"
+          },
+          {
+            "id": 55,
+            "categoriaId": 6,
+            "titulo": "O dinheiro como dívida (2006)",
+            "url": "https://youtu.be/700yJblX3jw"
+          },
+          {
+            "id": 56,
+            "categoriaId": 6,
+            "titulo": "The Corporation",
+            "url": "https://youtu.be/Zx0f_8FKMrY"
+          },
+          {
+            "id": 57,
+            "categoriaId": 6,
+            "titulo": "Uma sociedade sem manicômios",
+            "url": "https://www.youtube.com/watch?v=9z8ScK7Iyp0"
+          },
+          {
+            "id": 58,
+            "categoriaId": 6,
+            "titulo": "Réquiem para o Sonho Americano ",
+            "url": "https://www.youtube.com/watch?v=qAScJxm_jao"
+          },
+          {
+            "id": 59,
+            "categoriaId": 6,
+            "titulo": "The Mask You Live In",
+            "url": "https://www.youtube.com/watch?v=I1OI9B0VSlA"
+          },
+          {
+            "id": 60,
+            "categoriaId": 6,
+            "titulo": "Paradise or Oblivion",
+            "url": "https://youtu.be/KphWsnhZ4Ag"
+          },
+          {
+            "id": 61,
+            "categoriaId": 7,
+            "titulo": "Wilson Simonal- Ninguém sabe o duro que dei",
+            "url": "https://www.youtube.com/watch?v=ItVY5xs3_VM"
+          },
+          {
+            "id": 62,
+            "categoriaId": 7,
+            "titulo": "Charles Bradley - Soul of America",
+            "url": "https://www.youtube.com/watch?v=dOnMsDZdgcc"
+          },
+          {
+            "id": 63,
+            "categoriaId": 7,
+            "titulo": "Chico Science: Um Caranguejo Elétrico",
+            "url": "https://www.youtube.com/watch?v=j299EbU-UnQ"
+          },
+          {
+            "id": 64,
+            "categoriaId": 7,
+            "titulo": "Get Thrashed: The Story of Thrash Metal",
+            "url": "https://www.youtube.com/watch?v=q_TBvw2PWwg"
+          },
+          {
+            "id": 65,
+            "categoriaId": 7,
+            "titulo": "Uma Noite Em 67",
+            "url": "https://www.youtube.com/watch?v=MLdptXDGwmg"
+          },
+          {
+            "id": 66,
+            "categoriaId": 7,
+            "titulo": "1959 - O ano que mudou o jazz",
+            "url": "https://www.youtube.com/watch?v=QGtrC41NpI8"
+          },
+          {
+            "id": 67,
+            "categoriaId": 7,
+            "titulo": "Krautrock: The Rebirth Of Germany",
+            "url": "https://www.youtube.com/watch?v=QP5dOKTB3ng"
+          },
+          {
+            "id": 68,
+            "categoriaId": 7,
+            "titulo": "Genghis Blues (1999)",
+            "url": "https://www.youtube.com/watch?v=s8Lr_27MkzA"
+          },
+          {
+            "id": 69,
+            "categoriaId": 7,
+            "titulo": "Natural Mystic Reggae",
+            "url": "https://www.youtube.com/watch?v=-KdKAZz4v-Y"
+          },
+          {
+            "id": 70,
+            "categoriaId": 7,
+            "titulo": "Galeria do Rock - Torre de Babel Paulistana",
+            "url": "https://www.youtube.com/watch?v=ZQiwiW2mnOk"
+          },
+          {
+            "id": 71,
+            "categoriaId": 7,
+            "titulo": "Alquimistas do Som",
+            "url": "https://www.youtube.com/watch?v=oFdEbC_RRNY"
+          },
+          {
+            "id": 72,
+            "categoriaId": 7,
+            "titulo": "Fabricando Tom Zé",
+            "url": "https://www.youtube.com/watch?v=QKuXIisaBdc"
+          },
+          {
+            "id": 73,
+            "categoriaId": 7,
+            "titulo": "Botinada: A Origem do Punk No Brasil",
+            "url": "https://www.youtube.com/watch?v=trIAXkc003k"
+          }
     ]
 }
+
+  
