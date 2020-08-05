@@ -27,6 +27,3 @@ function useForm(initialValue) {
   };
 }
 export default useForm;
-
-/* const { handleChange, values, clearForm } = useForm(initialValue);
- */

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Button from '../../Button'
+import Button from '../../Button';
 
-/* Configurações do Menu inicial*/
+/* Configurações do Menu inicial */
 
 export const MenuWrapper = styled.nav`
     width: 100%;
@@ -39,7 +39,7 @@ export const MenuWrapper = styled.nav`
   }
 `;
 
-/* Configurações do Logo*/
+/* Configurações do Logo */
 export const LogoImage = styled.img`
 
   max-width: 250px;
@@ -52,7 +52,7 @@ export const LogoImage = styled.img`
   }
  `;
 
-/* Configurações de Botôes*/
+/* Configurações de Botôes */
 
 export const ButtonLink = styled(Button)`
     color: var(--black);

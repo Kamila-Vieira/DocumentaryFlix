@@ -1,38 +1,29 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import videosRepository from '../../../repositories/videos';
+import categoriesRepository from '../../../repositories/categories';
 
 function CadastroVideo() {
-  const initialValue = {
-
+  const history = useHistory();
+  const [categories, setCategories] = useState([]);
+  const { handleChange, values, clearForm } = useForm({
     titulo: '',
     link: '',
-    imagem: '',
     categoria: '',
     descricao: '',
-  };
+  });
 
-  /*   const selectId = `id_${categoria}`;
- */
-  const [videos, setVideos] = useState([]);
-
-  const [values, setValues] = useState(initialValue);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
+  useEffect(() => {
+    categoriesRepository.getAll().then((categoriesFromServer) => {
+      setCategories(categoriesFromServer);
     });
-  }
-  function handleChange(evento) {
-    setValue(
-      evento.target.getAttribute('name'),
-      evento.target.value,
-    );
-  }
-
+  }, []);
+  console.log(categories);
+  
   return (
     <PageDefault>
       <br />
@@ -52,14 +43,20 @@ function CadastroVideo() {
 
       <h1>Cadastro de Vídeos</h1>
 
-      <form onSubmit={function submeter(evento) {
-        evento.preventDefault();
-        setVideos([
-          ...videos,
-          values,
-        ]);
+      <form onSubmit={function submeter(event) {
+        event.preventDefault();
+        videosRepository.create({
+          titulo: values.titulo,
+          url: values.url,
+          categoriaId: 1,
+        })
+          .then(() => {
+            history.push('/');
+            // eslint-disable-next-line no-alert
+            // alert('Vídeo cadastrado com sucesso!');
+          });
 
-        setValues(initialValue);
+        clearForm();
       }}
       >
         <FormField
@@ -72,23 +69,16 @@ function CadastroVideo() {
         <FormField
           label="Link do Vídeo"
           type="url"
-          name="link"
-          value={values.link}
-          onChange={handleChange}
-        />
-        <FormField
-          label="link da Imagem do Vídeo"
-          type="url"
-          name="imagem"
-          value={values.imagem}
+          name="url"
+          value={values.url}
           onChange={handleChange}
         />
         <FormField
           label="Categoria"
-          type="categoria"
           name="categoria"
           value={values.categoria}
           onChange={handleChange}
+
            /*  <label htmlFor={selectId}>Country</label>
             <select id={selectId} name="country">
             <option value="australia">Australia</option>
@@ -103,7 +93,7 @@ function CadastroVideo() {
           value={values.descricao}
           onChange={handleChange}
         />
-        <Button className="ButtonLink">
+        <Button type="submit">
           Cadastrar
         </Button>
       </form>

@@ -102,7 +102,6 @@ export const BannerMainContainer = styled.section`
 
 export const WatchButton = styled.button`
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
   font-style: normal;
@@ -113,16 +112,16 @@ export const WatchButton = styled.button`
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
-  border-color: var(--black);
+  color: var(--gold);
+  background: var(--black);
+  border-color: var(--gold);
   transition: opacity .3s;
   display: none;
   margin: 0 auto;
-  text-align:center
+  text-align:center;
+
   @media (max-width: 800px) {
     display: block;
-    
-    
+
   }
 `;

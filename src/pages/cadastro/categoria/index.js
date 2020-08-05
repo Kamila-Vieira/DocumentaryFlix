@@ -17,17 +17,19 @@ function CadastroCategoria() {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://documentaryflix.herokuapp.com/categorias';
+    setTimeout(() => {
+      const URL = window.location.hostname.includes('localhost')
+        ? 'http://localhost:8080/categorias'
+        : 'https://documentaryflix.herokuapp.com/categorias';
 
-    fetch(URL)
-      .then(async (answerServer) => {
-        const answer = await answerServer.json();
-        setCategories([
-          ...answer,
-        ]);
-      });
+      fetch(URL)
+        .then(async (answerServer) => {
+          const answer = await answerServer.json();
+          setCategories([
+            ...answer,
+          ]);
+        });
+    }, 3 * 1000);
 
     /* setTimeout(() => {
       setCategories([
@@ -43,36 +45,6 @@ function CadastroCategoria() {
           titulo: 'Ciência e Biologia',
           descricao: 'Documentários sobre a ciência e o universo',
           cor: '#00C86F',
-        },
-        {
-          id: 3,
-          titulo: 'Espiritualidade',
-          descricao: 'Documentários sobre a a espiritualidade universal',
-          cor: '#9cd33b',
-        },
-        {
-          id: 4,
-          titulo: 'Arte',
-          descricao: 'Documentários sobre a arte como um todo',
-          cor: '#6b5be2',
-        },
-        {
-          id: 5,
-          titulo: 'História',
-          descricao: 'Documentários sobre a do Brasil e do mundo',
-          cor: 'red',
-        },
-        {
-          id: 6,
-          titulo: 'Sociologia e Filosofia',
-          descricao: 'Documentários socialistas e filosóficos',
-          cor: 'pink',
-        },
-        {
-          id: 7,
-          titulo: 'Música',
-          descricao: 'Documentários sobre a arte da música',
-          cor: 'orange',
         },
       ]);
     }, 2 * 1000); */
@@ -102,8 +74,8 @@ function CadastroCategoria() {
         {values.titulo}
       </h1>
 
-      <form onSubmit={function submeter(evento) {
-        evento.preventDefault();
+      <form onSubmit={function submeter(event) {
+        event.preventDefault();
         setCategories([
           ...categories,
           values,
@@ -112,7 +84,7 @@ function CadastroCategoria() {
       }}
       >
         <FormField
-          label="Título"
+          label="Nome da Categoria"
           type="text"
           name="titulo"
           value={values.titulo}
@@ -138,6 +110,14 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+      <br />
+
+      {categories.length === 0
+      && (
+      <div>
+        Loading...
+      </div>
+      )}
 
       <ul>
         {categories.map((category) => (

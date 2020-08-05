@@ -5,7 +5,7 @@
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 105px;
+      max-width: 200px;
     }
   }
   
@@ -35,9 +35,10 @@
   }
   @media (max-width: 800px) {
     .Menu {
-      height: 40px;
-      justify-content: center;
-    }
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    }
     body {
       --bodyPaddingTop: 40px;
       padding-top: var(--bodyPaddingTop);
@@ -66,7 +67,7 @@
     opacity: .5;
   }
   
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     a.ButtonLink {
       position: fixed;
       left: 0;
@@ -77,4 +78,4 @@
       border: 0;
       text-align: center;
     }
-  }
+  } */

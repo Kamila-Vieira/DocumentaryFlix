@@ -25,7 +25,7 @@ Label.Text = styled.span`
   align-items: center;
   
   transform-origin: 0% 0%;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 300;
   
@@ -91,6 +91,7 @@ function FormField({
         />
         <Label.Text>
           {label}
+          :
         </Label.Text>
       </Label>
     </WapperFormfield>

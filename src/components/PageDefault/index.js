@@ -6,7 +6,7 @@ import logoMain from '../../assets/img/logoMain.png';
 import './Menu/Menu.css';
 
 const Main = styled.main`
-    font-size: 10px;
+    font-size: 16px;
     color: var(--white);
     flex:1;
     padding-top:10px;
@@ -35,7 +35,8 @@ const Main = styled.main`
       
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    flex-direction: right;
     
     }
 
