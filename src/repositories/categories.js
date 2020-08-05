@@ -39,5 +39,4 @@ export default {
 
   getAllWithVideos,
   getAll,
-  create,
 };

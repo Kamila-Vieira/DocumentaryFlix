@@ -22,8 +22,7 @@ function CadastroVideo() {
       setCategories(categoriesFromServer);
     });
   }, []);
-  console.log(categories);
-  
+
   return (
     <PageDefault>
       <br />
@@ -45,14 +44,16 @@ function CadastroVideo() {
 
       <form onSubmit={function submeter(event) {
         event.preventDefault();
+
+        const categoriaEscolhida = categories.find((categoria) => categoria.titulo === values.categoria);
+
         videosRepository.create({
           titulo: values.titulo,
           url: values.url,
-          categoriaId: 1,
+          categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
             history.push('/');
-            // eslint-disable-next-line no-alert
             // alert('Vídeo cadastrado com sucesso!');
           });
 
