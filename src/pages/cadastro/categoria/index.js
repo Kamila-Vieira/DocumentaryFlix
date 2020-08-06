@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useHistory } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriesRepository from '../../../repositories/categories';
 
 function CadastroCategoria() {
   const initialValue = {
@@ -80,12 +81,17 @@ function CadastroCategoria() {
           ...categories,
           values,
         ]);
+
+        categoriesRepository.create({
+          titulo: values.titulo,
+          descricao: values.descricao,
+          cor: values.cor,
+        });
         clearForm();
       }}
       >
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="titulo"
           value={values.titulo}
           onChange={handleChange}

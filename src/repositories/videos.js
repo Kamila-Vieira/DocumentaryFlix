@@ -19,7 +19,24 @@ function create(objetoDoVideo) {
     });
 }
 
-export default {
+function Delete(objetoDoVideo) {
+  return fetch(`${URL_VIDEOS}?_embed=videos`, {
+    method: 'DELETE',
+    headers: {
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(objetoDoVideo),
+  })
+    .then(async (answerServer) => {
+      if (answerServer.ok) {
+        const answer = await answerServer.json();
+        return answer;
+      }
+      throw new Error('Não foi possível cadastrar os dados no servidor!');
+    });
+}
 
+export default {
   create,
+  Delete,
 };

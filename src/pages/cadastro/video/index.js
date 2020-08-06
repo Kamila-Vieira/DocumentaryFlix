@@ -10,6 +10,7 @@ import categoriesRepository from '../../../repositories/categories';
 function CadastroVideo() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
+  const categoryTitles = categories.map(({ titulo }) => titulo);
   const { handleChange, values, clearForm } = useForm({
     titulo: '',
     link: '',
@@ -45,7 +46,11 @@ function CadastroVideo() {
       <form onSubmit={function submeter(event) {
         event.preventDefault();
 
-        const categoriaEscolhida = categories.find((categoria) => categoria.titulo === values.categoria);
+        // eslint-disable-next-line array-callback-return
+        const categoriaEscolhida = categories.find((categoria) => {
+          // eslint-disable-next-line no-unused-expressions
+          categoria.titulo === values.categoria;
+        });
 
         videosRepository.create({
           titulo: values.titulo,
@@ -79,13 +84,7 @@ function CadastroVideo() {
           name="categoria"
           value={values.categoria}
           onChange={handleChange}
-
-           /*  <label htmlFor={selectId}>Country</label>
-            <select id={selectId} name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-            </select> */
+          suggestions={categoryTitles}
         />
         <FormField
           label="Descrição"
