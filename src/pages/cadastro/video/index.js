@@ -11,7 +11,7 @@ function CadastroVideo() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
   const categoryTitles = categories.map(({ titulo }) => titulo);
-  const { handleChange, values, clearForm } = useForm({
+  const { handleChange, values } = useForm({
     titulo: '',
     link: '',
     categoria: '',
@@ -43,13 +43,11 @@ function CadastroVideo() {
 
       <h1>Cadastro de Vídeos</h1>
 
-      <form onSubmit={function submeter(event) {
+      <form onSubmit={(event) => {
         event.preventDefault();
-
-        // eslint-disable-next-line array-callback-return
+        // alert('Video Cadastrado com sucesso!!!1!');
         const categoriaEscolhida = categories.find((categoria) => {
-          // eslint-disable-next-line no-unused-expressions
-          categoria.titulo === values.categoria;
+          return categoria.titulo === values.categoria;
         });
 
         videosRepository.create({
@@ -58,11 +56,9 @@ function CadastroVideo() {
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
+            // console.log('Cadastrou com sucesso!');
             history.push('/');
-            // alert('Vídeo cadastrado com sucesso!');
           });
-
-        clearForm();
       }}
       >
         <FormField

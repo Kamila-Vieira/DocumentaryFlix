@@ -48,7 +48,7 @@
     },
     {
       "id": 6,
-      "titulo": "Sociologia e Filosofia",
+      "titulo": "Sociedade",
       "cor": "pink",
       "link_extra": {
         "text": "Documentários sobre Nietzsche, Heidegger e Sartre.",
@@ -63,6 +63,12 @@
         "text": "Artigo: A arte da música e a inspiração para a vida",
         "url": "https://www.familia.com.br/a-arte-da-musica-e-a-inspiracao-para-a-vida/"
       }
+    },
+    {
+      "titulo": "Especiais",
+      "descricao": "Seleção de Melhores documentários",
+      "cor": "#69700a",
+      "id": 8
     }
   ],
   "videos": [
@@ -418,13 +424,13 @@
       "id": 58,
       "categoriaId": 6,
       "titulo": "Réquiem para o Sonho Americano ",
-      "url": "https://www.youtube.com/watch?v=qAScJxm_jao"
+      "url": "https://www.youtube.com/watch?v=Exl6gHMAPPQ"
     },
     {
       "id": 59,
       "categoriaId": 6,
       "titulo": "The Mask You Live In",
-      "url": "https://www.youtube.com/watch?v=I1OI9B0VSlA"
+      "url": "https://www.youtube.com/watch?v=hc45-ptHMxo"
     },
     {
       "id": 60,
@@ -509,6 +515,36 @@
       "categoriaId": 7,
       "titulo": "Botinada: A Origem do Punk No Brasil",
       "url": "https://www.youtube.com/watch?v=trIAXkc003k"
+    },
+    {
+      "titulo": "Indústria Americana",
+      "url": "https://www.youtube.com/watch?v=5sFFttgfljU",
+      "categoriaId": 8,
+      "id": 74
+    },
+    {
+      "titulo": "The Cave",
+      "url": "https://www.youtube.com/watch?v=TaZkwBWuN2A",
+      "categoriaId": 8,
+      "id": 75
+    },
+    {
+      "titulo": "Democracia em Vertigem",
+      "url": "https://www.youtube.com/watch?v=vwZ5m10y1rQ",
+      "categoriaId": 8,
+      "id": 76
+    },
+    {
+      "titulo": "For Sama",
+      "url": "https://www.youtube.com/watch?v=vsvBqtg2RM0",
+      "categoriaId": 8,
+      "id": 77
+    },
+    {
+      "titulo": "Honeyland",
+      "url": "https://youtu.be/B27ORUHlp6E",
+      "categoriaId": 8,
+      "id": 78
     }
   ]
 }
