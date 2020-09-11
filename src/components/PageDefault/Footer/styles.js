@@ -12,6 +12,7 @@ export const FooterBase = styled.footer`
   text-align: center;
 
   @media only screen and (max-device-width: 800px) {
-    font-size: 10px;
+    font-size: 20px;
+
   }
 `;

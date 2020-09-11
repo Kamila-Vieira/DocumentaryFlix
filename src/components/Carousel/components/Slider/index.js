@@ -43,9 +43,18 @@ const Slider = ({ children }) => (
       dots: false,
       infinite: true,
       speed: 500,
-      centerMode: false,
+      centerMode: true,
       variableWidth: true,
       adaptiveHeight: true,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          arrows: false,
+        },
+      }],
     }}
     >
       {children}
