@@ -9,7 +9,7 @@ export const ContentAreaContainer = styled.section`
   justify-content: center;
   position: relative;
   z-index: 10;
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
   }
@@ -19,7 +19,7 @@ ContentAreaContainer.Item = styled.div`
   width: 50%;
   display: inline-block;
   margin-bottom: 50px;
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     width: 100%;
   }
 `;
@@ -38,7 +38,7 @@ ContentAreaContainer.Category = styled.h1`
   line-height: 1;
   border-radius: 4px;
 
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     display: none;
     font-size: 18px;
     padding: 10px;
@@ -46,7 +46,7 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     display: none;
   }
 `;
@@ -59,9 +59,10 @@ ContentAreaContainer.Title = styled.h2`
   margin-top: 0;
   margin-bottom: 32px;
 
-  @media (max-width: 800px) {
-    font-size: 32px;
+   @media only screen and (max-device-width: 800px) {
+    font-size: 70px;
     text-align: center;
+    margin-top: 70px;
   }
 `;
 
@@ -72,9 +73,9 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
-  @media (max-width: 800px) {
-    height: auto;
-    min-height: 50vh;
+   @media only screen and (max-device-width: 800px) {
+    height: 50%;
+    min-height: 20vh;
   }
 
   &:after,
@@ -103,10 +104,10 @@ export const BannerMainContainer = styled.section`
 export const WatchButton = styled.button`
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  padding: 16px 24px;
+  padding: 30px 24px;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 33px;
   outline: none;
   border-radius: 5px;
   text-decoration: none;
@@ -119,9 +120,10 @@ export const WatchButton = styled.button`
   display: none;
   margin: 0 auto;
   text-align:center;
+  width: 300px;
+  height: 100px;
 
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     display: block;
-
   }
 `;

@@ -12,12 +12,14 @@ function ButtonLink({ className, href, children }) {
 ButtonLink.defaultProps = {
   href: '/',
   className: '',
+
 };
 
 ButtonLink.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string,
   children: PropTypes.node.isRequired,
+
 };
 
 export default ButtonLink;

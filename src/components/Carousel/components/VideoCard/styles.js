@@ -44,7 +44,8 @@ export const VideoCardContainer = styled.a`
       opacity: 1;
     }
     h2 {
-      opacity: 1;
+      position: center;
+      z-index: 2;
     }
   }
   
@@ -57,4 +58,9 @@ export const VideoCardContainer = styled.a`
     opacity: 0;
     transition: opacity .3s;
   }
+  @media only screen and (max-device-width: 800px) {
+    width: calc(298px*3);
+    height: calc(197px*3);
+  }
+  
 `;

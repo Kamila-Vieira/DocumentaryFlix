@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Footer from './Footer';
 import logoMain from '../../assets/img/logoMain.png';
 import './Menu/Menu.css';
+import '../ButtonLink/style.css';
 
 const Main = styled.main`
     font-size: 16px;
@@ -12,23 +13,34 @@ const Main = styled.main`
     padding-top:10px;
     padding-left: 5%;
     padding-right: 5%;
-    background-image: linear-gradient(var(--grayDarker), gray);
+    background: var(--grayDarker);
+    
+    height: 100%;
+    width: 100%;
 
     h1{
-      
-      font-size: 35px;
+        font-size: 35px;
+
+        @media only screen and (max-device-width: 800px) {
+          font-size: 50px;
+          margin-bottom: 50px;
+      }
 
     };
 
     ul{
+        font-size: 18px;
+        line-height: 25px;
 
-      font-size: 16px;
-      
-      li{
-
-        padding-top: 5px;
-
-      }
+        @media only screen and (max-device-width: 800px) {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        
+        li{
+          padding-top: 5px;
+          list-style: none;
+        }
     };
 
     .buttons{

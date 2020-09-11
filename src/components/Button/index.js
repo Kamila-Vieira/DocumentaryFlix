@@ -21,7 +21,14 @@ const Button = styled.button`
     &:focus {
         opacity: .5;
     }
-        
+
+    @media only screen and (max-device-width: 800px){
+        width: 200px;
+        height: 70px;
+        font-size: 33px;
+        text-align: center;
+        padding: 15px 18px;
+    }   
 `;
 
 export default Button;

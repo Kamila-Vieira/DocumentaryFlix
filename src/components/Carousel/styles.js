@@ -12,9 +12,9 @@ export const Title = styled.h3`
   line-height: 1;
   border-radius: 4px;
 
-  @media (max-width: 800px) {
-    font-size: 18px;
-    padding: 10px;
+   @media only screen and (max-device-width: 800px) {
+    font-size: 60px;
+    padding: 30px;
   }
 `;
 
@@ -26,10 +26,10 @@ export const ExtraLink = styled.a`
   &:focus {
     opacity: .5;
   }
-  @media (max-width: 800px) {
+   @media only screen and (max-device-width: 800px) {
     display: block;
-    margin-bottom: 16px;
-    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
   }
 `;
 
@@ -41,7 +41,7 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
+
   li {
     margin-right: 16px;
   }

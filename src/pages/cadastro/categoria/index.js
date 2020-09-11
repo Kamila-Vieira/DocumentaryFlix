@@ -31,24 +31,6 @@ function CadastroCategoria() {
           ]);
         });
     }, 3 * 1000);
-
-    /* setTimeout(() => {
-      setCategories([
-        ...categories,
-        {
-          id: 1,
-          titulo: 'Tecnologia',
-          descricao: 'Documentários sobre o mundo da tecnologia',
-          cor: '#2A7AE4',
-        },
-        {
-          id: 2,
-          titulo: 'Ciência e Biologia',
-          descricao: 'Documentários sobre a ciência e o universo',
-          cor: '#00C86F',
-        },
-      ]);
-    }, 2 * 1000); */
   },
   []);
 
@@ -59,12 +41,12 @@ function CadastroCategoria() {
       <div className="buttons">
         <div>
           <Link className="ButtonLink" to="/">
-            Voltar para Home
+            Home
           </Link>
         </div>
         <div>
           <Link className="ButtonLink" to="/cadastro/video">
-            Voltar para Cadastro de Vìdeos
+            Cadastro de Vìdeos
           </Link>
         </div>
       </div>
@@ -92,6 +74,7 @@ function CadastroCategoria() {
       >
         <FormField
           label="Nome da Categoria"
+          type="textarea"
           name="titulo"
           value={values.titulo}
           onChange={handleChange}

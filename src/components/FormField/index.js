@@ -30,6 +30,11 @@ Label.Text = styled.span`
   font-weight: 300;
   
   transition: .1s ease-in-out;
+
+  @media only screen and (max-device-width: 800px) {
+    font-size: 30px;
+    margin-top: 2px;
+  }
 `;
 
 const Input = styled.input`
@@ -38,7 +43,7 @@ const Input = styled.input`
   display: block;
   width: 100%;
   height: 57px;
-  font-size: 18px;
+  font-size: 18px !important;
   
   outline: 0;
   border: 0;
@@ -51,6 +56,10 @@ const Input = styled.input`
   resize: none;
   border-radius: 4px;
   transition: border-color .3s;
+
+  @media only screen and (max-device-width: 800px) {
+    height: 90px;  
+  }
   
   &:focus {
     border-bottom-color: var(--black);
@@ -64,6 +73,7 @@ const Input = styled.input`
       transform: scale(.6) translateY(-10px);
     }
   `}
+  
 `;
 
 function FormField({

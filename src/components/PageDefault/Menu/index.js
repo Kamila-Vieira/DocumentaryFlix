@@ -4,17 +4,14 @@ import logoMain from '../../../assets/img/logoMain.png';
 import './Menu.css';
 import Button from '../../Button';
 
-// import {MenuWrapper, LogoImage, ButtonLink } from './style.js';
-// import ButtonLink from './components/ButtonLink';
-
 function Menu() {
   return (
     <nav className="Menu">
       <Link to="/">
         <img className="Logo" src={logoMain} alt="DocumentaryFlix logo" />
       </Link>
-      <Button as={Link} to="/cadastro/video" className="ButtonLink">
-        Adicionar Mais Vídeos
+      <Button as={Link} to="/cadastro/video">
+        +Vídeos
       </Button>
     </nav>
   );

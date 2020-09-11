@@ -1,0 +1,33 @@
+.ButtonLink {
+    color: var(--black);
+    border: 1px solid var(--black);
+    background-color: var(--gold);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 10px 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity .3s;
+    display: inline-block;    
+}
+
+.ButtonLinkhover,
+.ButtonLinkfocus {
+    opacity: .5;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .ButtonLink{   
+        font-size: 33px;
+        background-color: var(--gold);
+    }
+
+    .buttons{
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+}

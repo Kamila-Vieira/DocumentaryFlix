@@ -30,12 +30,12 @@ function CadastroVideo() {
       <div className="buttons">
         <div>
           <Link className="ButtonLink" to="/">
-            Voltar para Home
+            Home
           </Link>
         </div>
         <div>
           <Link className="ButtonLink" to="/cadastro/categoria">
-            Ir para Cadastro de Categoria
+            Cadastro de Categoria
           </Link>
         </div>
       </div>
@@ -45,7 +45,7 @@ function CadastroVideo() {
 
       <form onSubmit={(event) => {
         event.preventDefault();
-        // alert('Video Cadastrado com sucesso!!!1!');
+
         const categoriaEscolhida = categories.find((categoria) => {
           return categoria.titulo === values.categoria;
         });
@@ -56,7 +56,6 @@ function CadastroVideo() {
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
-            // console.log('Cadastrou com sucesso!');
             history.push('/');
           });
       }}
