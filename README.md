@@ -15,9 +15,9 @@
 ## Screeenshots (Device)
 
 <div>
-  <img src="/src/assets/Screenshots/Device/responsiveHome.JPG" alt="" width=300/> 
-  <img src="/src/assets/Screenshots/Device/responsiveCategoryForm.jpg" alt="" width=300/>
-  <img src="/src/assets/Screenshots/Device/responsiveVideoForm.jpg" alt="" width=300/> 
+  <img src="/src/assets/Screenshots/Device/responsiveHome.JPG" alt="" width=200/> 
+  <img src="/src/assets/Screenshots/Device/responsiveCategoryForm.jpg" alt="" width=200/>
+  <img src="/src/assets/Screenshots/Device/responsiveVideoForm.jpg" alt="" width=200/> 
 </div>
 
 ## Available Scripts
