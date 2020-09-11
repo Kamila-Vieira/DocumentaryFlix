@@ -6,16 +6,16 @@
 
 ## Screeenshots (Desktop)
 <div>
-  <img src="/src/assets/Screenshots/Desktop/banner.jpg" alt="banner" width=300/>
-  <img src="/src/assets/Screenshots/Desktop/videoContainer.jpg" alt="" width=300/>
-  <img src="/src/assets/Screenshots/Desktop/categoryForm.jpg" alt="" width=300/>
-  <img src="/src/assets/Screenshots/Desktop/videoForm.jpg" alt="" width=300/> 
+  <img src="/src/assets/Screenshots/Desktop/banner.jpg" alt="banner" width=200/>
+  <img src="/src/assets/Screenshots/Desktop/videoContainer.jpg" alt="" width=200/>
+  <img src="/src/assets/Screenshots/Desktop/categoryForm.jpg" alt="" width=200/>
+  <img src="/src/assets/Screenshots/Desktop/videoForm.jpg" alt="" width=200/> 
 </div>
 
 ## Screeenshots (Device)
 
 <div>
-  <img src="/src/assets/Screenshots/Device/responsiveHome.jpg" alt="" width=300/> 
+  <img src="/src/assets/Screenshots/Device/responsiveHome.JPG" alt="" width=300/> 
   <img src="/src/assets/Screenshots/Device/responsiveCategoryForm.jpg" alt="" width=300/>
   <img src="/src/assets/Screenshots/Device/responsiveVideoForm.jpg" alt="" width=300/> 
 </div>
