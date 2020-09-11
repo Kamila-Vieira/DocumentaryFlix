@@ -1,6 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DocumentaryFlix
 
-<<<<<<< HEAD
+🎬 Project developed during immersion in React Js at Alura 💙: Application similar to streaming, but only for documentaries.
+
+<img src="/src/assets/img/logoMain.png"/>
+
+## Screeenshots (Desktop)
+<div>
+  <img src="/src/assets/Screenshots/Desktop/banner.jpg" alt="banner" width=300/>
+  <img src="/src/assets/Screenshots/Desktop/videoContainer.jpg" alt="" width=300/>
+  <img src="/src/assets/Screenshots/Desktop/categoryForm.jpg" alt="" width=300/>
+  <img src="/src/assets/Screenshots/Desktop/videoForm.jpg" alt="" width=300/> 
+</div>
+
+## Screeenshots (Device)
+
+<div>
+  <img src="/src/assets/Screenshots/Device/responsiveHome.jpg" alt="" width=300/> 
+  <img src="/src/assets/Screenshots/Device/responsiveCategoryForm.jpg" alt="" width=300/>
+  <img src="/src/assets/Screenshots/Device/responsiveVideoForm.jpg" alt="" width=300/> 
+</div>
+
 ## Available Scripts
 
 In the project directory, you can run:
