@@ -6,10 +6,10 @@
 
 ## Screeenshots (Desktop)
 <div>
-  <img src="/src/assets/Screenshots/Desktop/banner.jpg" alt="banner" width=200/>
-  <img src="/src/assets/Screenshots/Desktop/videoContainer.jpg" alt="" width=200/>
-  <img src="/src/assets/Screenshots/Desktop/categoryForm.jpg" alt="" width=200/>
-  <img src="/src/assets/Screenshots/Desktop/videoForm.jpg" alt="" width=200/> 
+  <img src="/src/assets/Screenshots/Desktop/banner.jpg" alt="banner" width=350/>
+  <img src="/src/assets/Screenshots/Desktop/videoContainer.jpg" alt="" width=350/>
+  <img src="/src/assets/Screenshots/Desktop/categoryForm.jpg" alt="" width=350/>
+  <img src="/src/assets/Screenshots/Desktop/videoForm.jpg" alt="" width=350/> 
 </div>
 
 ## Screeenshots (Device)
