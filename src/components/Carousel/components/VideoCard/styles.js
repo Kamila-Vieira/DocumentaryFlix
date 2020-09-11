@@ -19,9 +19,7 @@ export const VideoCardContainer = styled.a`
   display: flex;
   align-items: flex-end;
   padding: 16px;
-
   transition: opacity .3s;
-
   &:after {
     content: "";
     display: block;
@@ -36,16 +34,14 @@ export const VideoCardContainer = styled.a`
     margin: auto;
     opacity: 0;
   }
-
   &:hover,
   &:focus {
-    
+    /* opacity: .5; */
     &:after {
       opacity: 1;
     }
     h2 {
-      position: center;
-      z-index: 2;
+      opacity: 1;
     }
   }
   
@@ -53,14 +49,14 @@ export const VideoCardContainer = styled.a`
     margin-left: 20px;
   }
   h2 {
-    position: center;
+    position: relative;
     z-index: 2;
     opacity: 0;
     transition: opacity .3s;
+ 
   }
   @media only screen and (max-device-width: 800px) {
     width: calc(298px*3);
     height: calc(197px*3);
   }
-  
 `;
