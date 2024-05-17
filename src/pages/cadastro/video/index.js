@@ -6,6 +6,7 @@ import Button from "../../../components/Button";
 import useForm from "../../../hooks/useForm";
 import videosRepository from "../../../repositories/videos";
 import categoriesRepository from "../../../repositories/categories";
+import utils from "../../../utils";
 
 function CadastroVideo() {
   const history = useHistory();
@@ -48,11 +49,12 @@ function CadastroVideo() {
           event.preventDefault();
 
           const categoriaEscolhida = categories.find((categoria) => {
-            return categoria.title === values.categoria;
+            return categoria.title === values.category;
           });
 
           videosRepository
             .create({
+              id: utils.generateUUID(),
               title: values.title,
               url: values.url,
               categoryId: categoriaEscolhida.id,

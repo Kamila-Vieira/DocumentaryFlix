@@ -17,6 +17,7 @@ function create(objetoDaCategoria) {
     throw new Error("Não foi possível cadastrar os dados no servidor!");
   });
 }
+
 function getAll() {
   return fetch(`${URL_CATEGORIES}`).then(async (answerServer) => {
     if (answerServer.ok) {

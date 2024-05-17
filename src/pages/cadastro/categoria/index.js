@@ -4,25 +4,8 @@ import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import useForm from "../../../hooks/useForm";
-import config from "../../../config";
 import categoriesRepository from "../../../repositories/categories";
-
-function hexToRgb(hex) {
-  // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
-  var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-  hex = hex.replace(shorthandRegex, function (m, r, g, b) {
-    return r + r + g + g + b + b;
-  });
-
-  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return {
-    R: result ? parseInt(result[1], 16) : 255,
-    G: result ? parseInt(result[2], 16) : 255,
-    B: result ? parseInt(result[3], 16) : 255,
-    O: 1,
-    HEX: hex,
-  };
-}
+import utils from "../../../utils";
 
 function CadastroCategoria() {
   const initialValue = {
@@ -37,9 +20,8 @@ function CadastroCategoria() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch(config.URL).then(async (answerServer) => {
-        const answer = await answerServer.json();
-        setCategories([...answer]);
+      categoriesRepository.getAll().then((categoriesFromServer) => {
+        setCategories(categoriesFromServer);
       });
     }, 3 * 1000);
   }, []);
@@ -72,9 +54,10 @@ function CadastroCategoria() {
           setCategories([...categories, values]);
 
           categoriesRepository.create({
+            id: utils.generateUUID(),
             title: values.title,
             description: values.description,
-            color: hexToRgb(values.color),
+            color: utils.hexToRgb(values.color),
           });
           clearForm();
         }}
