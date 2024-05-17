@@ -33,7 +33,7 @@ First, you need to clone this repository in your desktop:
 ```
 git clone git@github.com:Kamila-Vieira/DocumentaryFlix.git
 ```
-After this you have to install **Node.js**.
+After this you have to install **Node.js v16.20.2**.
 
 > You can install Node.js from [here](https://nodejs.org/en/).
 
@@ -78,4 +78,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 **That’s it! 💙<br />
 If you have questions about DocumentaryFlix, you can ask on [GitHub Issues](https://github.com/Kamila-Vieira/DocumentaryFlix/pulls).**
-

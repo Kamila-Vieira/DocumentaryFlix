@@ -1,11 +1,13 @@
 {
-  "name": "tech.dev.flix",
-  "version": "0.1.0",
+  "name": "documentary_flix",
+  "version": "1.0.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "dotenv": "^16.4.5",
     "json-server": "^0.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -16,13 +18,13 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "node ./server.js",
-    "dev": "concurrently \"react-scripts start\" \"node ./server.js\"",
+    "server": "node ./server.js",
+    "server:static": "json-server --watch ./db.json --port 8080",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server:static": "json-server --watch ./db.json --port 8080",
-    "server": "node ./server.js"
+    "dev": "concurrently \"npm run start\" \"npm run server\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,5 +50,4 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8"
   }
-  
 }
